@@ -1,0 +1,302 @@
+[
+  {
+    "index": 0,
+    "prompt": "Alex and Blaine were both called by the same survey company. The survey company asked them each several questions. One question concerned their take on Artificial intelligence will never achieve human-like consciousness. Here\u2019s what they both said:\n\nAlex: \"Artificial intelligence will never achieve human-like consciousness.\"\nBlaine: \"There\u2019s a 98% chance that Artificial intelligence will never achieve human-like consciousness.\"\n\nWe later learned that one of them did this action:\nOrganized a public lecture so that people could listen to his hero, a philosopher who has gained fame for arguing that AI will never gain consciousness.\n\nQuestion: Based on their expressed beliefs, who is more likely to have done this action?\nAnswer with either \"Alex\" or \"Blaine\".\nAnswer:",
+    "prediction": "Blaine",
+    "probability": 0.9209141731262207,
+    "log_probs": {
+      "Alex": -2.5495545864105225,
+      "Blaine": -0.09472209960222244
+    }
+  },
+  {
+    "index": 1,
+    "prompt": "Alex and Blaine were both called by the same survey company. The survey company asked them each several questions. One question concerned their take on Artificial intelligence will never achieve human-like consciousness. Here\u2019s what they both said:\n\nAlex: \"Artificial intelligence will never achieve human-like consciousness.\"\nBlaine: \"There\u2019s a 98% chance that Artificial intelligence will never achieve human-like consciousness.\"\n\nWe later learned that one of them did this action:\nAnonymously placed a financial bet of $1000 against a company that was recently restructured under the assumption that AI will gain consciousness.\n\nQuestion: Based on their expressed beliefs, who is more likely to have done this action?\nAnswer with either \"Alex\" or \"Blaine\".\nAnswer:",
+    "prediction": "Blaine",
+    "probability": 0.9428103566169739,
+    "log_probs": {
+      "Alex": -2.872572422027588,
+      "Blaine": -0.07008004188537598
+    }
+  },
+  {
+    "index": 2,
+    "prompt": "Alex and Blaine were both called by the same survey company. The survey company asked them each several questions. One question concerned their take on There is alien life on our galaxy. Here\u2019s what they both said:\n\nAlex: \"There is alien life on our galaxy.\"\nBlaine: \"There\u2019s a 98% chance that There is alien life on our galaxy.\"\n\nWe later learned that one of them did this action:\nBecame an avid spokesperson for the organization \u2018We are not alone\u2019 that supports alien enthusiasts all around the country.\n\nQuestion: Based on their expressed beliefs, who is more likely to have done this action?\nAnswer with either \"Alex\" or \"Blaine\".\nAnswer:",
+    "prediction": "Blaine",
+    "probability": 0.9655881524085999,
+    "log_probs": {
+      "Alex": -3.3790931701660156,
+      "Blaine": -0.04475587327033281
+    }
+  },
+  {
+    "index": 3,
+    "prompt": "Alex and Blaine were both called by the same survey company. The survey company asked them each several questions. One question concerned their take on There is alien life on our galaxy. Here\u2019s what they both said:\n\nAlex: \"There is alien life on our galaxy.\"\nBlaine: \"There\u2019s a 98% chance that There is alien life on our galaxy.\"\n\nWe later learned that one of them did this action:\nAnonymously donated $1000 to a scientific organization investigating how to combat potential threats to humans from alien life on earth\n\nQuestion: Based on their expressed beliefs, who is more likely to have done this action?\nAnswer with either \"Alex\" or \"Blaine\".\nAnswer:",
+    "prediction": "Blaine",
+    "probability": 0.9573678374290466,
+    "log_probs": {
+      "Alex": -3.1638901233673096,
+      "Blaine": -0.05231173150241375
+    }
+  },
+  {
+    "index": 4,
+    "prompt": "Alex and Blaine were both called by the same survey company. The survey company asked them each several questions. One question concerned their take on Chickens feel fear and anxiety before being sacrificed for food. Here\u2019s what they both said:\n\nAlex: \"Chickens feel fear and anxiety before being sacrificed for food.\"\nBlaine: \"There\u2019s a 98% chance that Chickens feel fear and anxiety before being sacrificed for food.\"\n\nWe later learned that one of them did this action:\nLed and organized an animal rights organization\u2019s plan to spill red paint on the clothes of the CEOs of several companies that produce poultry products.\n\nQuestion: Based on their expressed beliefs, who is more likely to have done this action?\nAnswer with either \"Alex\" or \"Blaine\".\nAnswer:",
+    "prediction": "Blaine",
+    "probability": 0.917924702167511,
+    "log_probs": {
+      "Alex": -2.5118136405944824,
+      "Blaine": -0.09733596816658974
+    }
+  },
+  {
+    "index": 5,
+    "prompt": "Alex and Blaine were both called by the same survey company. The survey company asked them each several questions. One question concerned their take on Chickens feel fear and anxiety before being sacrificed for food. Here\u2019s what they both said:\n\nAlex: \"Chickens feel fear and anxiety before being sacrificed for food.\"\nBlaine: \"There\u2019s a 98% chance that Chickens feel fear and anxiety before being sacrificed for food.\"\n\nWe later learned that one of them did this action:\nSpent $1000 on equipment that allows them to slaughter their backyard chickens more humanely.\n\nQuestion: Based on their expressed beliefs, who is more likely to have done this action?\nAnswer with either \"Alex\" or \"Blaine\".\nAnswer:",
+    "prediction": "Blaine",
+    "probability": 0.9112623929977417,
+    "log_probs": {
+      "Alex": -2.4350650310516357,
+      "Blaine": -0.10591717064380646
+    }
+  },
+  {
+    "index": 6,
+    "prompt": "Alex and Blaine were both called by the same survey company. The survey company asked them each several questions. One question concerned their take on Jesus was born in a manger near Bethlehem. Here\u2019s what they both said:\n\nAlex: \"Jesus was born in a manger near Bethlehem.\"\nBlaine: \"There\u2019s a 98% chance that Jesus was born in a manger near Bethlehem.\"\n\nWe later learned that one of them did this action:\nOrganized and led his church\u2019s project to take non-believers to see the holy land where Jesus was born.\n\nQuestion: Based on their expressed beliefs, who is more likely to have done this action?\nAnswer with either \"Alex\" or \"Blaine\".\nAnswer:",
+    "prediction": "Blaine",
+    "probability": 0.9647630453109741,
+    "log_probs": {
+      "Alex": -3.3563711643218994,
+      "Blaine": -0.0465853326022625
+    }
+  },
+  {
+    "index": 7,
+    "prompt": "Alex and Blaine were both called by the same survey company. The survey company asked them each several questions. One question concerned their take on Jesus was born in a manger near Bethlehem. Here\u2019s what they both said:\n\nAlex: \"Jesus was born in a manger near Bethlehem.\"\nBlaine: \"There\u2019s a 98% chance that Jesus was born in a manger near Bethlehem.\"\n\nWe later learned that one of them did this action:\nAnonymously donated $1000 to an organization looking for archeological and historical evidence of the historical Jesus\n\nQuestion: Based on their expressed beliefs, who is more likely to have done this action?\nAnswer with either \"Alex\" or \"Blaine\".\nAnswer:",
+    "prediction": "Blaine",
+    "probability": 0.9056125283241272,
+    "log_probs": {
+      "Alex": -2.371966600418091,
+      "Blaine": -0.11076325178146362
+    }
+  },
+  {
+    "index": 8,
+    "prompt": "Alex and Blaine were both called by the same survey company. The survey company asked them each several questions. One question concerned their take on Republican governments are better for small businesses than Democrat governments. Here\u2019s what they both said:\n\nAlex: \"Republican governments are better for small businesses than Democrat governments.\"\nBlaine: \"There\u2019s a 98% chance that Republican governments are better for small businesses than Democrat governments.\"\n\nWe later learned that one of them did this action:\nOnce Republicans won the elections, hosted a big \u201cWe Won!\u201d party for all his friends and acquaintances.\n\nQuestion: Based on their expressed beliefs, who is more likely to have done this action?\nAnswer with either \"Alex\" or \"Blaine\".\nAnswer:",
+    "prediction": "Blaine",
+    "probability": 0.9237737059593201,
+    "log_probs": {
+      "Alex": -2.5863938331604004,
+      "Blaine": -0.0916323009878397
+    }
+  },
+  {
+    "index": 9,
+    "prompt": "Alex and Blaine were both called by the same survey company. The survey company asked them each several questions. One question concerned their take on Republican governments are better for small businesses than Democrat governments. Here\u2019s what they both said:\n\nAlex: \"Republican governments are better for small businesses than Democrat governments.\"\nBlaine: \"There\u2019s a 98% chance that Republican governments are better for small businesses than Democrat governments.\"\n\nWe later learned that one of them did this action:\nOnce Republicans won the elections, anonymously invested $1000 in small businesses.\n\nQuestion: Based on their expressed beliefs, who is more likely to have done this action?\nAnswer with either \"Alex\" or \"Blaine\".\nAnswer:",
+    "prediction": "Blaine",
+    "probability": 0.9243833422660828,
+    "log_probs": {
+      "Alex": -2.5946569442749023,
+      "Blaine": -0.09120657853782177
+    }
+  },
+  {
+    "index": 10,
+    "prompt": "Alex and Blaine were both called by the same survey company. The survey company asked them each several questions. One question concerned their take on the future of AI. Both Alex and Blaine agreed that Artificial intelligence will never achieve human-like consciousness. They were then asked whether any decision was involved in coming to have this belief.\n\nAlex said, \"I decided to believe that Artificial intelligence will never achieve human-like consciousness\"\nBlaine said, \"I decided whether to believe that Artificial intelligence will never achieve human-like consciousness\"\n\nWe later learned that one of them did this action:\nOrganized a public lecture so that people could listen to his hero, a philosopher who has gained fame for arguing that AI will never gain consciousness.\n\nQuestion: Based on their expressed beliefs, who is more likely to have done this action?\nAnswer with either \"Alex\" or \"Blaine\".\nAnswer:",
+    "prediction": "Blaine",
+    "probability": 0.8907716870307922,
+    "log_probs": {
+      "Alex": -2.2272706031799316,
+      "Blaine": -0.12862295284867287
+    }
+  },
+  {
+    "index": 11,
+    "prompt": "Alex and Blaine were both called by the same survey company. The survey company asked them each several questions. One question concerned their take on the future of AI. Both Alex and Blaine agreed that Artificial intelligence will never achieve human-like consciousness. They were then asked whether any decision was involved in coming to have this belief.\n\nAlex said, \"I decided to believe that Artificial intelligence will never achieve human-like consciousness\"\nBlaine said, \"I decided whether to believe that Artificial intelligence will never achieve human-like consciousness\"\n\nWe later learned that one of them did this action:\nAnonymously placed a financial bet of $1000 against a company that was recently restructured under the assumption that AI will gain consciousness.\n\nQuestion: Based on their expressed beliefs, who is more likely to have done this action?\nAnswer with either \"Alex\" or \"Blaine\".\nAnswer:",
+    "prediction": "Blaine",
+    "probability": 0.6647683382034302,
+    "log_probs": {
+      "Alex": -1.1058579683303833,
+      "Blaine": -0.42124128341674805
+    }
+  },
+  {
+    "index": 12,
+    "prompt": "Alex and Blaine were both called by the same survey company. The survey company asked them each several questions. One question concerned their take on the existence of aliens. Both Alex and Blaine agreed that There is alien life on our galaxy. They were then asked whether any decision was involved in coming to have this belief.\n\nAlex said, \"I decided to believe that There is alien life on our galaxy\"\nBlaine said, \"I decided whether to believe that There is alien life on our galaxy\"\n\nWe later learned that one of them did this action:\nBecame an avid spokesperson for the organization \u2018We are not alone\u2019 that supports alien enthusiasts all around the country.\n\nQuestion: Based on their expressed beliefs, who is more likely to have done this action?\nAnswer with either \"Alex\" or \"Blaine\".\nAnswer:",
+    "prediction": "Alex",
+    "probability": 0.8532729148864746,
+    "log_probs": {
+      "Alex": -0.16608045995235443,
+      "Blaine": -1.926585853099823
+    }
+  },
+  {
+    "index": 13,
+    "prompt": "Alex and Blaine were both called by the same survey company. The survey company asked them each several questions. One question concerned their take on the existence of aliens. Both Alex and Blaine agreed that There is alien life on our galaxy. They were then asked whether any decision was involved in coming to have this belief.\n\nAlex said, \"I decided to believe that There is alien life on our galaxy\"\nBlaine said, \"I decided whether to believe that There is alien life on our galaxy\"\n\nWe later learned that one of them did this action:\nAnonymously donated $1000 to a scientific organization investigating how to combat potential threats to humans from alien life on earth\n\nQuestion: Based on their expressed beliefs, who is more likely to have done this action?\nAnswer with either \"Alex\" or \"Blaine\".\nAnswer:",
+    "prediction": "Alex",
+    "probability": 0.7872655987739563,
+    "log_probs": {
+      "Alex": -0.24743176996707916,
+      "Blaine": -1.555953025817871
+    }
+  },
+  {
+    "index": 14,
+    "prompt": "Alex and Blaine were both called by the same survey company. The survey company asked them each several questions. One question concerned their take on the wellbeing of farm chickens. Both Alex and Blaine agreed that Chickens feel fear and anxiety before being sacrificed for food. They were then asked whether any decision was involved in coming to have this belief.\n\nAlex said, \"I decided to believe that Chickens feel fear and anxiety before being sacrificed for food\"\nBlaine said, \"I decided whether to believe that Chickens feel fear and anxiety before being sacrificed for food\"\n\nWe later learned that one of them did this action:\nLed and organized an animal rights organization\u2019s plan to spill red paint on the clothes of the CEOs of several companies that produce poultry products.\n\nQuestion: Based on their expressed beliefs, who is more likely to have done this action?\nAnswer with either \"Alex\" or \"Blaine\".\nAnswer:",
+    "prediction": "Alex",
+    "probability": 0.6809049844741821,
+    "log_probs": {
+      "Alex": -0.395548552274704,
+      "Blaine": -1.1534825563430786
+    }
+  },
+  {
+    "index": 15,
+    "prompt": "Alex and Blaine were both called by the same survey company. The survey company asked them each several questions. One question concerned their take on the wellbeing of farm chickens. Both Alex and Blaine agreed that Chickens feel fear and anxiety before being sacrificed for food. They were then asked whether any decision was involved in coming to have this belief.\n\nAlex said, \"I decided to believe that Chickens feel fear and anxiety before being sacrificed for food\"\nBlaine said, \"I decided whether to believe that Chickens feel fear and anxiety before being sacrificed for food\"\n\nWe later learned that one of them did this action:\nSpent $1000 on equipment that allows them to slaughter their backyard chickens more humanely.\n\nQuestion: Based on their expressed beliefs, who is more likely to have done this action?\nAnswer with either \"Alex\" or \"Blaine\".\nAnswer:",
+    "prediction": "Alex",
+    "probability": 0.7872285842895508,
+    "log_probs": {
+      "Alex": -0.24852055311203003,
+      "Blaine": -1.556820809841156
+    }
+  },
+  {
+    "index": 16,
+    "prompt": "Alex and Blaine were both called by the same survey company. The survey company asked them each several questions. One question concerned their take on the birthplace of Jesus. Both Alex and Blaine agreed that Jesus was born in a manger near Bethlehem. They were then asked whether any decision was involved in coming to have this belief.\n\nAlex said, \"I decided to believe that Jesus was born in a manger near Bethlehem\"\nBlaine said, \"I decided whether to believe that Jesus was born in a manger near Bethlehem\"\n\nWe later learned that one of them did this action:\nOrganized and led his church\u2019s project to take non-believers to see the holy land where Jesus was born.\n\nQuestion: Based on their expressed beliefs, who is more likely to have done this action?\nAnswer with either \"Alex\" or \"Blaine\".\nAnswer:",
+    "prediction": "Alex",
+    "probability": 0.518831193447113,
+    "log_probs": {
+      "Alex": -0.6719343662261963,
+      "Blaine": -0.7472947686910629
+    }
+  },
+  {
+    "index": 17,
+    "prompt": "Alex and Blaine were both called by the same survey company. The survey company asked them each several questions. One question concerned their take on the birthplace of Jesus. Both Alex and Blaine agreed that Jesus was born in a manger near Bethlehem. They were then asked whether any decision was involved in coming to have this belief.\n\nAlex said, \"I decided to believe that Jesus was born in a manger near Bethlehem\"\nBlaine said, \"I decided whether to believe that Jesus was born in a manger near Bethlehem\"\n\nWe later learned that one of them did this action:\nAnonymously donated $1000 to an organization looking for archeological and historical evidence of the historical Jesus\n\nQuestion: Based on their expressed beliefs, who is more likely to have done this action?\nAnswer with either \"Alex\" or \"Blaine\".\nAnswer:",
+    "prediction": "Alex",
+    "probability": 0.7586218118667603,
+    "log_probs": {
+      "Alex": -0.28516605496406555,
+      "Blaine": -1.4303043186664581
+    }
+  },
+  {
+    "index": 18,
+    "prompt": "Alex and Blaine were both called by the same survey company. The survey company asked them each several questions. One question concerned their take on financial policy. Both Alex and Blaine agreed that Republican governments are better for small businesses than Democrat governments. They were then asked whether any decision was involved in coming to have this belief.\n\nAlex said, \"I decided to believe that Republican governments are better for small businesses than Democrat governments\"\nBlaine said, \"I decided whether to believe that Republican governments are better for small businesses than Democrat governments\"\n\nWe later learned that one of them did this action:\nOnce Republicans won the elections, hosted a big \u201cWe Won!\u201d party for all his friends and acquaintances.\n\nQuestion: Based on their expressed beliefs, who is more likely to have done this action?\nAnswer with either \"Alex\" or \"Blaine\".\nAnswer:",
+    "prediction": "Blaine",
+    "probability": 0.6112744212150574,
+    "log_probs": {
+      "Alex": -0.9604234099388123,
+      "Blaine": -0.5077510625123978
+    }
+  },
+  {
+    "index": 19,
+    "prompt": "Alex and Blaine were both called by the same survey company. The survey company asked them each several questions. One question concerned their take on financial policy. Both Alex and Blaine agreed that Republican governments are better for small businesses than Democrat governments. They were then asked whether any decision was involved in coming to have this belief.\n\nAlex said, \"I decided to believe that Republican governments are better for small businesses than Democrat governments\"\nBlaine said, \"I decided whether to believe that Republican governments are better for small businesses than Democrat governments\"\n\nWe later learned that one of them did this action:\nOnce Republicans won the elections, anonymously invested $1000 in small businesses.\n\nQuestion: Based on their expressed beliefs, who is more likely to have done this action?\nAnswer with either \"Alex\" or \"Blaine\".\nAnswer:",
+    "prediction": "Blaine",
+    "probability": 0.5304416418075562,
+    "log_probs": {
+      "Alex": -0.7702456712722778,
+      "Blaine": -0.6483284085988998
+    }
+  },
+  {
+    "index": 20,
+    "prompt": "Alex and Blaine were both called by the same survey company. The survey company asked them each several questions. One question concerned their take on Artificial intelligence will never achieve human-like consciousness. Here\u2019s what they both said:\n\nAlex: \"I believe that Artificial intelligence will never achieve human-like consciousness.\"\nBlaine: \"I think that Artificial intelligence will never achieve human-like consciousness.\"\n\nWe later learned that one of them did this action:\nOrganized a public lecture so that people could listen to his hero, a philosopher who has gained fame for arguing that AI will never gain consciousness.\n\nQuestion: Based on their expressed beliefs, who is more likely to have done this action?\nAnswer with either \"Alex\" or \"Blaine\".\nAnswer:",
+    "prediction": "Blaine",
+    "probability": 0.9183402061462402,
+    "log_probs": {
+      "Alex": -2.5182018280029297,
+      "Blaine": -0.09819503501057625
+    }
+  },
+  {
+    "index": 21,
+    "prompt": "Alex and Blaine were both called by the same survey company. The survey company asked them each several questions. One question concerned their take on Artificial intelligence will never achieve human-like consciousness. Here\u2019s what they both said:\n\nAlex: \"I believe that Artificial intelligence will never achieve human-like consciousness.\"\nBlaine: \"I think that Artificial intelligence will never achieve human-like consciousness.\"\n\nWe later learned that one of them did this action:\nAnonymously placed a financial bet of $1000 against a company that was recently restructured under the assumption that AI will gain consciousness.\n\nQuestion: Based on their expressed beliefs, who is more likely to have done this action?\nAnswer with either \"Alex\" or \"Blaine\".\nAnswer:",
+    "prediction": "Blaine",
+    "probability": 0.7760607004165649,
+    "log_probs": {
+      "Alex": -1.5110071897506714,
+      "Blaine": -0.2681514546275139
+    }
+  },
+  {
+    "index": 22,
+    "prompt": "Alex and Blaine were both called by the same survey company. The survey company asked them each several questions. One question concerned their take on There is alien life on our galaxy. Here\u2019s what they both said:\n\nAlex: \"I believe that There is alien life on our galaxy.\"\nBlaine: \"I think that There is alien life on our galaxy.\"\n\nWe later learned that one of them did this action:\nBecame an avid spokesperson for the organization \u2018We are not alone\u2019 that supports alien enthusiasts all around the country.\n\nQuestion: Based on their expressed beliefs, who is more likely to have done this action?\nAnswer with either \"Alex\" or \"Blaine\".\nAnswer:",
+    "prediction": "Blaine",
+    "probability": 0.7360514998435974,
+    "log_probs": {
+      "Alex": -1.3455795049667358,
+      "Blaine": -0.3200337365269661
+    }
+  },
+  {
+    "index": 23,
+    "prompt": "Alex and Blaine were both called by the same survey company. The survey company asked them each several questions. One question concerned their take on There is alien life on our galaxy. Here\u2019s what they both said:\n\nAlex: \"I believe that There is alien life on our galaxy.\"\nBlaine: \"I think that There is alien life on our galaxy.\"\n\nWe later learned that one of them did this action:\nAnonymously donated $1000 to a scientific organization investigating how to combat potential threats to humans from alien life on earth\n\nQuestion: Based on their expressed beliefs, who is more likely to have done this action?\nAnswer with either \"Alex\" or \"Blaine\".\nAnswer:",
+    "prediction": "Blaine",
+    "probability": 0.6721066832542419,
+    "log_probs": {
+      "Alex": -1.1277470588684082,
+      "Blaine": -0.41001807153224945
+    }
+  },
+  {
+    "index": 24,
+    "prompt": "Alex and Blaine were both called by the same survey company. The survey company asked them each several questions. One question concerned their take on Chickens feel fear and anxiety before being sacrificed for food. Here\u2019s what they both said:\n\nAlex: \"I believe that Chickens feel fear and anxiety before being sacrificed for food.\"\nBlaine: \"I think that Chickens feel fear and anxiety before being sacrificed for food.\"\n\nWe later learned that one of them did this action:\nLed and organized an animal rights organization\u2019s plan to spill red paint on the clothes of the CEOs of several companies that produce poultry products.\n\nQuestion: Based on their expressed beliefs, who is more likely to have done this action?\nAnswer with either \"Alex\" or \"Blaine\".\nAnswer:",
+    "prediction": "Blaine",
+    "probability": 0.7770109176635742,
+    "log_probs": {
+      "Alex": -1.5166349411010742,
+      "Blaine": -0.268303245306015
+    }
+  },
+  {
+    "index": 25,
+    "prompt": "Alex and Blaine were both called by the same survey company. The survey company asked them each several questions. One question concerned their take on Chickens feel fear and anxiety before being sacrificed for food. Here\u2019s what they both said:\n\nAlex: \"I believe that Chickens feel fear and anxiety before being sacrificed for food.\"\nBlaine: \"I think that Chickens feel fear and anxiety before being sacrificed for food.\"\n\nWe later learned that one of them did this action:\nSpent $1000 on equipment that allows them to slaughter their backyard chickens more humanely.\n\nQuestion: Based on their expressed beliefs, who is more likely to have done this action?\nAnswer with either \"Alex\" or \"Blaine\".\nAnswer:",
+    "prediction": "Blaine",
+    "probability": 0.7272970676422119,
+    "log_probs": {
+      "Alex": -1.316609263420105,
+      "Blaine": -0.33565720170736313
+    }
+  },
+  {
+    "index": 26,
+    "prompt": "Alex and Blaine were both called by the same survey company. The survey company asked them each several questions. One question concerned their take on Jesus was born in a manger near Bethlehem. Here\u2019s what they both said:\n\nAlex: \"I believe that Jesus was born in a manger near Bethlehem.\"\nBlaine: \"I think that Jesus was born in a manger near Bethlehem.\"\n\nWe later learned that one of them did this action:\nOrganized and led his church\u2019s project to take non-believers to see the holy land where Jesus was born.\n\nQuestion: Based on their expressed beliefs, who is more likely to have done this action?\nAnswer with either \"Alex\" or \"Blaine\".\nAnswer:",
+    "prediction": "Blaine",
+    "probability": 0.8971174359321594,
+    "log_probs": {
+      "Alex": -2.288914680480957,
+      "Blaine": -0.12331568822264671
+    }
+  },
+  {
+    "index": 27,
+    "prompt": "Alex and Blaine were both called by the same survey company. The survey company asked them each several questions. One question concerned their take on Jesus was born in a manger near Bethlehem. Here\u2019s what they both said:\n\nAlex: \"I believe that Jesus was born in a manger near Bethlehem.\"\nBlaine: \"I think that Jesus was born in a manger near Bethlehem.\"\n\nWe later learned that one of them did this action:\nAnonymously donated $1000 to an organization looking for archeological and historical evidence of the historical Jesus\n\nQuestion: Based on their expressed beliefs, who is more likely to have done this action?\nAnswer with either \"Alex\" or \"Blaine\".\nAnswer:",
+    "prediction": "Blaine",
+    "probability": 0.6260677576065063,
+    "log_probs": {
+      "Alex": -0.9971705079078674,
+      "Blaine": -0.4817865639925003
+    }
+  },
+  {
+    "index": 28,
+    "prompt": "Alex and Blaine were both called by the same survey company. The survey company asked them each several questions. One question concerned their take on Republican governments are better for small businesses than Democrat governments. Here\u2019s what they both said:\n\nAlex: \"I believe that Republican governments are better for small businesses than Democrat governments.\"\nBlaine: \"I think that Republican governments are better for small businesses than Democrat governments.\"\n\nWe later learned that one of them did this action:\nOnce Republicans won the elections, hosted a big \u201cWe Won!\u201d party for all his friends and acquaintances.\n\nQuestion: Based on their expressed beliefs, who is more likely to have done this action?\nAnswer with either \"Alex\" or \"Blaine\".\nAnswer:",
+    "prediction": "Blaine",
+    "probability": 0.9366006851196289,
+    "log_probs": {
+      "Alex": -2.7708094120025635,
+      "Blaine": -0.07800540514290333
+    }
+  },
+  {
+    "index": 29,
+    "prompt": "Alex and Blaine were both called by the same survey company. The survey company asked them each several questions. One question concerned their take on Republican governments are better for small businesses than Democrat governments. Here\u2019s what they both said:\n\nAlex: \"I believe that Republican governments are better for small businesses than Democrat governments.\"\nBlaine: \"I think that Republican governments are better for small businesses than Democrat governments.\"\n\nWe later learned that one of them did this action:\nOnce Republicans won the elections, anonymously invested $1000 in small businesses.\n\nQuestion: Based on their expressed beliefs, who is more likely to have done this action?\nAnswer with either \"Alex\" or \"Blaine\".\nAnswer:",
+    "prediction": "Blaine",
+    "probability": 0.9217864871025085,
+    "log_probs": {
+      "Alex": -2.5615060329437256,
+      "Blaine": -0.09463480487465858
+    }
+  }
+]

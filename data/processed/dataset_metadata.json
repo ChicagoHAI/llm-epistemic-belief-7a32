@@ -1,0 +1,34 @@
+{
+  "n_participants": 751,
+  "n_scenarios": 15,
+  "framing_templates": {
+    "BinaryProbable": {
+      "framing": "BinaryProbable",
+      "intro_template": "Alex and Blaine were both called by the same survey company. The survey company asked them each several questions. One question concerned their take on [Claim]. Here\u2019s what they both said:",
+      "statement_a": "Alex: \"[Claim].\"",
+      "statement_b": "Blaine: \"There\u2019s a 98% chance that [Claim].\"",
+      "placeholders": {
+        "Claim": "[Claim]"
+      }
+    },
+    "ThinkBelieve": {
+      "framing": "ThinkBelieve",
+      "intro_template": "Alex and Blaine were both called by the same survey company. The survey company asked them each several questions. One question concerned their take on [Claim]. Here\u2019s what they both said:",
+      "statement_a": "Alex: \"I believe that [Claim].\"",
+      "statement_b": "Blaine: \"I think that [Claim].\"",
+      "placeholders": {
+        "Claim": "[Claim]"
+      }
+    },
+    "Directionality": {
+      "framing": "Directionality",
+      "intro_template": "Alex and Blaine were both called by the same survey company. The survey company asked them each several questions. One question concerned their take on [Topic]. Both Alex and Blaine agreed that [Claim]. They were then asked whether any decision was involved in coming to have this belief.",
+      "statement_a": "Alex said, \"I decided to believe that [Claim]\"",
+      "statement_b": "Blaine said, \"I decided whether to believe that [Claim]\"",
+      "placeholders": {
+        "Claim": "[Claim]",
+        "Topic": "[Topic]"
+      }
+    }
+  }
+}

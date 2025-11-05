@@ -1,0 +1,22 @@
+{
+  "majority": {
+    "accuracy": 0.8333333333333334,
+    "balanced_accuracy": 0.5,
+    "macro_f1": 0.45454545454545453
+  },
+  "heuristic": {
+    "accuracy": 0.5,
+    "balanced_accuracy": 0.7,
+    "macro_f1": 0.4857142857142857
+  },
+  "logistic_tfidf": {
+    "accuracy": 0.7,
+    "balanced_accuracy": 0.74,
+    "macro_f1": 0.6306429548563611
+  },
+  "google/flan-t5-large": {
+    "accuracy": 0.3,
+    "balanced_accuracy": 0.5,
+    "macro_f1": 0.2992213570634038
+  }
+}

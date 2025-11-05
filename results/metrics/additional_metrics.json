@@ -1,0 +1,18 @@
+{
+  "majority": {
+    "accuracy_truth_dependent": 0.6666666666666666,
+    "accuracy_symbolic": 1.0
+  },
+  "heuristic": {
+    "accuracy_truth_dependent": 0.6666666666666666,
+    "accuracy_symbolic": 0.3333333333333333
+  },
+  "logistic_tfidf": {
+    "accuracy_truth_dependent": 0.6666666666666666,
+    "accuracy_symbolic": 0.7333333333333333
+  },
+  "google/flan-t5-large": {
+    "accuracy_truth_dependent": 0.4,
+    "accuracy_symbolic": 0.2
+  }
+}

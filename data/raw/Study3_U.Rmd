@@ -1,0 +1,494 @@
+---
+title: "Pilot 1: Full Probable"
+author: "AV"
+date: "10/08/2023"
+output: html_document
+---
+
+0.Packages
+```{r}
+# for data organization and visualization 
+library(dplyr)
+library(tidyr)
+library(ggplot2)
+library(stringr)
+library(Hmisc)
+library(reshape2)
+library(purrr)
+library(patchwork)
+library(ppcor)
+library(lmerTest)
+library(emmeans)
+```
+############################################################
+#1. PREPARING THE THE DATA
+############################################################
+
+##1.1 Load Data
+```{r}
+rm(list = ls())
+
+raw <- read.csv2("Check your attitudes_Study 3 - Raw-Wide.csv")
+```
+
+
+##1.2 Demographics
+```{r}
+#Observations
+length(unique(raw$Part_ID))
+
+#Drop Check 1 failures
+# Identify columns with "Check1"
+check_cols <- grep("Check", names(raw))
+
+# Filter participants
+raw.c <- raw %>%
+  filter_at(vars(names(raw)[check_cols]), any_vars(. == 2))
+
+length(unique(raw.c$Part_ID))
+
+# Calculating the mean of the Age column
+average_age <- mean(raw.c$Age, na.rm = TRUE)
+print(paste("Average Age:", average_age))
+
+# Calculating the standard deviation of the Age column
+sd_age <- sd(raw.c$Age, na.rm = TRUE)
+print(paste("Standard Deviation of Age:", sd_age))
+
+gender_counts <- table(raw.c$Gender)
+print(paste("Gender: 1=F, 2=M, 3=O"))
+print(gender_counts)
+
+
+```
+##1.3 Transform to Long Format
+```{r}
+#Gather obsv
+d <- raw.c %>%
+  gather(key = "Measure", value = "Value", -Part_ID)
+
+#Remove NAs
+d <- d %>%
+  filter(!is.na(Value))
+
+#Add tags
+#Stimulus
+d <- d %>% 
+  mutate(Key = case_when(
+   str_detect(Measure, "1_") ~ "Republican", 
+    str_detect(Measure, "2_") ~ "Jesus", 
+    str_detect(Measure, "3_") ~ "Aliens",
+     str_detect(Measure, "4_") ~ "Chickens",
+   str_detect(Measure, "5_") ~ "AI"))
+
+#Claim
+d <- d %>% 
+  mutate(Framing = case_when(
+   str_detect(Measure, "TB_") ~ "ThinkBelieve",
+   str_detect(Measure, "BP_") ~ "BinaryProbable",
+    str_detect(Measure, "D_") ~ "Directionality"))
+
+d <- d %>% 
+  mutate(ActionType = case_when(
+   str_detect(Measure, "t_") ~ "Truth Dependent", 
+    str_detect(Measure, "s_") ~ "Symbolic"))
+
+
+d <- d %>% 
+  mutate(Question = case_when(
+    str_detect(Measure, "_Action") ~ "Action",
+    str_detect(Measure, "_Certainty") ~ "Certainty",))
+
+d <- d %>%
+  filter(!is.na(Question))
+
+##Correct Coding
+
+d <- d %>% 
+  mutate(Value = case_when(
+    Value == 0 ~ -3,
+    Value == 1 ~ -2,
+    Value == 2 ~ -1,
+    Value == 3 ~ 0,
+    Value == 4 ~ 1,
+    Value == 6 ~ 2,
+    Value == 7 ~ 3,
+    TRUE ~ Value # Keeps the original value if it doesn't match any of the above
+  ))
+
+
+#Widen data grouping by participant using the question keys to the questions
+wd <- d %>%
+  dplyr::select(Part_ID, Key, ActionType, Framing, Question, Value) %>%
+  spread(key = Question, value = Value)
+
+#Output Dataset
+write.csv(wd, "Study3 (NEW)_long.csv", row.names = FALSE)
+
+
+
+```
+
+###########################################################
+#2. DESCRIPTIVE ANALYSES 
+############################################################
+
+##2.1 Preambles: Statistical Summaries, Labels, Colors 
+```{r, fig.width=10, fig.height=4}
+# Summarize data for Framing and ActionType
+action.FramingActionType.summary <- wd %>%
+  group_by(Framing, ActionType) %>%
+  dplyr::summarize(
+    mean_score = mean(Action),
+    N = n(),
+    sd = sd(Action),
+    se = sd / sqrt(N),
+    me = qt(.975, N-1) * sd / sqrt(N),
+    p_value = t.test(Action, mu = 4)$p.value,
+    significant = p_value < 0.05
+  ) %>%
+  ungroup()
+
+#Set labels for plots
+custom_labelsTB <- function(x) {
+  labels <- as.character(x)
+  labels[x == -3] <- "-3\nBelieve"
+  labels[x == 3] <- "Think\n3"
+  return(labels)
+}
+
+custom_labelsBP <- function(x) {
+  labels <- as.character(x)
+  labels[x == -3] <- "-3\nBinary"
+  labels[x == 3] <- "Probabilisitic\n3"
+  return(labels)
+}
+
+custom_labelsD <- function(x) {
+  labels <- as.character(x)
+  labels[x == -3] <- "-3\nDirectional"
+  labels[x == 3] <- "Non-Directional\n3"
+  return(labels)
+}
+
+
+#Set Color Scheme fro Plots
+background_data <- data.frame(
+  xmin = c(-Inf, -Inf),
+  xmax = c(Inf, Inf),
+  ymin = c(-Inf, 0),
+  ymax = c(0, Inf),
+  fill = c("lightblue", "navyblue")
+)
+```
+##2.2 Plot MainDvs
+
+```{r, fig.width=15, fig.height=5}
+
+#ThinkBelieve
+TB.Plot <- ggplot()+
+    geom_violin(data = wd %>% filter(Framing == "ThinkBelieve"), aes(x = ActionType, y = Action), fill = "gray30", color = NA, alpha = 0.5)+
+   geom_rect(data = background_data, aes(xmin=xmin, xmax=xmax, ymin=ymin, ymax=ymax, fill=fill), inherit.aes = FALSE, alpha = 0.5) +
+  scale_fill_identity()+
+  geom_jitter(data = wd %>% filter(Framing == "ThinkBelieve"), aes(x = ActionType, y = Action), width = 0.2, height = 0.5, color = "gray10", alpha = 0.5, size = 1.5)+
+  geom_point(data = action.FramingActionType.summary %>% filter(Framing == "ThinkBelieve"), aes(x = ActionType, y = mean_score, color = ActionType), position = position_dodge(0), size = 6, color = "navyblue")+
+  geom_point(data = action.FramingActionType.summary %>% filter(Framing == "ThinkBelieve"), aes(x = ActionType, y = mean_score, color = ActionType), position = position_dodge(0), size = 5, color = "black")+
+  geom_errorbar(data = action.FramingActionType.summary %>% filter(Framing == "ThinkBelieve"), aes(x = ActionType, ymin = mean_score - me, ymax = mean_score + me), width = 0.06, position = position_dodge(0.9), color = "black", size = 1)+
+  scale_y_continuous(breaks = -3:3,labels = custom_labelsTB, limits = c(-3, 3), expand = c(0, 0))+
+  labs(x = "", y = "", title = "'Believes' v. 'Thinks'") +
+  theme_bw() +
+  theme(panel.background = element_blank(), legend.position = "none", axis.text.x = element_text(size = 13, face = "bold", color = "black"), axis.text.y = element_text(size = 12), plot.margin = margin(t = 1, r = 1, b = 1, l = 1, unit = "pt"), plot.title = element_text(size = 13, face = "bold", hjust = 0.5, color = "black"), axis.ticks.x = element_blank()) +
+  geom_hline(yintercept = 0, linetype = "solid", color = "black", linewidth = 1.5)+
+  scale_x_discrete(labels = c("Symbolic" = "Symbolic\nAction", "Truth Dependent" = "Truth-Dependent\nAction"))  
+
+
+#BinaryProbable
+BP.Plot <- ggplot()+
+    geom_violin(data = wd %>% filter(Framing == "BinaryProbable"), aes(x = ActionType, y = Action), fill = "gray30", color = NA, alpha = 0.5)+
+   geom_rect(data = background_data, aes(xmin=xmin, xmax=xmax, ymin=ymin, ymax=ymax, fill=fill), inherit.aes = FALSE, alpha = 0.5) +
+  scale_fill_identity()+
+  geom_jitter(data = wd %>% filter(Framing == "BinaryProbable"), aes(x = ActionType, y = Action), width = 0.2, height = 0.5, color = "gray10", alpha = 0.5, size = 1.5)+
+  geom_point(data = action.FramingActionType.summary %>% filter(Framing == "BinaryProbable"), aes(x = ActionType, y = mean_score, color = ActionType), position = position_dodge(0), size = 6, color = "navyblue")+
+  geom_point(data = action.FramingActionType.summary %>% filter(Framing == "BinaryProbable"), aes(x = ActionType, y = mean_score, color = ActionType), position = position_dodge(0), size = 5, color = "black")+
+  geom_errorbar(data = action.FramingActionType.summary %>% filter(Framing == "BinaryProbable"), aes(x = ActionType, ymin = mean_score - me, ymax = mean_score + me), width = 0.06, position = position_dodge(0.9), color = "black", size = 1)+
+  scale_y_continuous(breaks = -3:3,labels = custom_labelsBP, limits = c(-3, 3), expand = c(0, 0))+
+  labs(x = "", y = "", title = "Binary v. Probabilistic") +
+  theme_bw() +
+  theme(panel.background = element_blank(), legend.position = "none", axis.text.x = element_text(size = 13, face = "bold", color = "black"), axis.text.y = element_text(size = 12), plot.margin = margin(t = 1, r = 1, b = 1, l = 1, unit = "pt"), plot.title = element_text(size = 13, face = "bold", hjust = 0.5, color = "black"), axis.ticks.x = element_blank()) +
+  geom_hline(yintercept = 0, linetype = "solid", color = "black", linewidth = 1.5)+
+  scale_x_discrete(labels = c("Symbolic" = "Symbolic\nAction", "Truth Dependent" = "Truth-Dependent\nAction"))  
+
+
+
+#Directionality
+D.Plot <- ggplot()+
+    geom_violin(data = wd %>% filter(Framing == "Directionality"), aes(x = ActionType, y = Action), fill = "gray30", color = NA, alpha = 0.5, adjust = 1.5)+
+   geom_rect(data = background_data, aes(xmin=xmin, xmax=xmax, ymin=ymin, ymax=ymax, fill=fill), inherit.aes = FALSE, alpha = 0.5) +
+  scale_fill_identity()+
+  geom_jitter(data = wd %>% filter(Framing == "Directionality"), aes(x = ActionType, y = Action), width = 0.2, height = 0.5, color = "gray10", alpha = 0.5, size = 1.5)+
+  geom_point(data = action.FramingActionType.summary %>% filter(Framing == "Directionality"), aes(x = ActionType, y = mean_score, color = ActionType), position = position_dodge(0), size = 6, color = "navyblue")+
+  geom_point(data = action.FramingActionType.summary %>% filter(Framing == "Directionality"), aes(x = ActionType, y = mean_score, color = ActionType), position = position_dodge(0), size = 5, color = "black")+
+  geom_errorbar(data = action.FramingActionType.summary %>% filter(Framing == "Directionality"), aes(x = ActionType, ymin = mean_score - me, ymax = mean_score + me), width = 0.06, position = position_dodge(0.9), color = "black", size = 1)+
+  scale_y_continuous(breaks = -3:3,labels = custom_labelsD, limits = c(-3, 3), expand = c(0, 0))+
+  labs(x = "", y = "", title = "Directional v. Non-Directional") +
+  theme_bw() +
+  theme(panel.background = element_blank(), legend.position = "none", axis.text.x = element_text(size = 13, face = "bold", color = "black"), axis.text.y = element_text(size = 12), plot.margin = margin(t = 1, r = 1, b = 1, l = 1, unit = "pt"), plot.title = element_text(size = 13, face = "bold", hjust = 0.5, color = "black"), axis.ticks.x = element_blank()) +
+  geom_hline(yintercept = 0, linetype = "solid", color = "black", linewidth = 1.5)+
+  scale_x_discrete(labels = c("Symbolic" = "Symbolic\nAction", "Truth Dependent" = "Truth-Dependent\nAction"))  
+
+
+MainDVs <- BP.Plot + D.Plot + TB.Plot    + 
+  plot_layout(guides = 'collect') &
+  theme(plot.margin = margin(5.5, 25, 5.5, 7, "pt"))
+MainDVs
+
+```
+
+############################
+#3. ANALYSES
+############################
+```{r}
+wd$Framing <- as.factor(wd$Framing)
+wd$Key <- as.factor(wd$Key)
+
+TB <- wd[wd$Framing == 'ThinkBelieve', ]
+BP <-  wd[wd$Framing == 'BinaryProbable', ]
+D <-  wd[wd$Framing == 'Directionality', ]
+
+
+print("XXXXXXX BinaryProbabilistic XXXXXXXXX")
+model <- lmer(Action ~ ActionType + (1 | Key), data = BP)
+summary(model)
+model <- lmer(Action ~ ActionType + (1 | Key) + Certainty, data = BP)
+summary(model)
+
+print("XXXXXXX Directionality XXXXXXXXX")
+model <- lmer(Action ~ ActionType + (1 | Key), data = D)
+summary(model)
+model <- lmer(Action ~ ActionType + (1 | Key) + Certainty, data = D)
+summary(model)
+
+print("XXXXXXX ThinkBelieve XXXXXXXXX")
+model <- lmer(Action ~ ActionType + (1 | Key), data = TB)
+summary(model)
+model <- lmer(Action ~ ActionType + (1 | Key) + Certainty, data = TB)
+summary(model)
+
+print("XXXXXXX Interaction Model  XXXXXXXXX")
+model <- lmer(Action ~ ActionType * Framing + (1 | Key), data = wd)
+emm <- emmeans(model, ~ ActionType * Framing)
+pairs(emm)
+summary(model)
+anova(model)
+
+
+
+```
+
+
+############################
+#4.4 SUPPLEMENTS
+############################
+##2.2 Statistical Summary Certanty
+```{r}
+# Summarize data for Framing and ActionType
+certainty.FramingActionType.summary <- wd %>%
+  group_by(Framing, ActionType) %>%
+  dplyr::summarize(
+    mean_score = mean(Certainty),
+    N = n(),
+    sd = sd(Certainty),
+    se = sd / sqrt(N),
+    me = qt(.975, N-1) * sd / sqrt(N),
+    lower_bound = mean_score - me,
+    upper_bound = mean_score + me,
+    p_value = t.test(Action, mu = 4)$p.value,
+    significant = p_value < 0.05
+  ) %>%
+  ungroup()
+```
+
+
+##2.2 Plot Certanty
+```{r, fig.width=15, fig.height=5}
+
+#ThinkBelieve
+TB.Plot.cert <- ggplot()+
+    geom_violin(data = wd %>% filter(Framing == "ThinkBelieve"), aes(x = ActionType, y = Certainty), fill = "gray30", color = NA, alpha = 0.5)+
+   geom_rect(data = background_data, aes(xmin=xmin, xmax=xmax, ymin=ymin, ymax=ymax, fill=fill), inherit.aes = FALSE, alpha = 0.5) +
+  scale_fill_identity()+
+  geom_jitter(data = wd %>% filter(Framing == "ThinkBelieve"), aes(x = ActionType, y = Certainty), width = 0.2, height = 0.5, color = "gray10", alpha = 0.5, size = 1.5)+
+  geom_point(data = certainty.FramingActionType.summary %>% filter(Framing == "ThinkBelieve"), aes(x = ActionType, y = mean_score, color = ActionType), position = position_dodge(0), size = 6, color = "navyblue")+
+  geom_point(data = certainty.FramingActionType.summary %>% filter(Framing == "ThinkBelieve"), aes(x = ActionType, y = mean_score, color = ActionType), position = position_dodge(0), size = 5, color = "black")+
+  geom_errorbar(data = certainty.FramingActionType.summary %>% filter(Framing == "ThinkBelieve"), aes(x = ActionType, ymin = mean_score - me, ymax = mean_score + me), width = 0.06, position = position_dodge(0.9), color = "black", size = 1)+
+  scale_y_continuous(breaks = -3:3,labels = custom_labelsTB, limits = c(-3, 3), expand = c(0, 0))+
+  labs(x = "", y = "", title = "'Believes' v. 'Thinks'") +
+  theme_bw() +
+  theme(panel.background = element_blank(), legend.position = "none", axis.text.x = element_text(size = 13, face = "bold", color = "black"), axis.text.y = element_text(size = 12), plot.margin = margin(t = 1, r = 1, b = 1, l = 1, unit = "pt"), plot.title = element_text(size = 13, face = "bold", hjust = 0.5, color = "black"), axis.ticks.x = element_blank()) +
+  geom_hline(yintercept = 0, linetype = "solid", color = "black", linewidth = 1.5)+
+  scale_x_discrete(labels = c("Symbolic" = "Symbolic\nAction", "Truth Dependent" = "Truth-Dependent\nAction"))  
+
+
+#BinaryProbable
+BP.Plot.cert <- ggplot()+
+    geom_violin(data = wd %>% filter(Framing == "BinaryProbable"), aes(x = ActionType, y = Certainty), fill = "gray30", color = NA, alpha = 0.5)+
+   geom_rect(data = background_data, aes(xmin=xmin, xmax=xmax, ymin=ymin, ymax=ymax, fill=fill), inherit.aes = FALSE, alpha = 0.5) +
+  scale_fill_identity()+
+  geom_jitter(data = wd %>% filter(Framing == "BinaryProbable"), aes(x = ActionType, y = Certainty), width = 0.2, height = 0.5, color = "gray10", alpha = 0.5, size = 1.5)+
+  geom_point(data = certainty.FramingActionType.summary %>% filter(Framing == "BinaryProbable"), aes(x = ActionType, y = mean_score, color = ActionType), position = position_dodge(0), size = 6, color = "navyblue")+
+  geom_point(data = certainty.FramingActionType.summary %>% filter(Framing == "BinaryProbable"), aes(x = ActionType, y = mean_score, color = ActionType), position = position_dodge(0), size = 5, color = "black")+
+  geom_errorbar(data = certainty.FramingActionType.summary %>% filter(Framing == "BinaryProbable"), aes(x = ActionType, ymin = mean_score - me, ymax = mean_score + me), width = 0.06, position = position_dodge(0.9), color = "black", size = 1)+
+  scale_y_continuous(breaks = -3:3,labels = custom_labelsBP, limits = c(-3, 3), expand = c(0, 0))+
+  labs(x = "", y = "", title = "Binary v. Probabilistic") +
+  theme_bw() +
+  theme(panel.background = element_blank(), legend.position = "none", axis.text.x = element_text(size = 13, face = "bold", color = "black"), axis.text.y = element_text(size = 12), plot.margin = margin(t = 1, r = 1, b = 1, l = 1, unit = "pt"), plot.title = element_text(size = 13, face = "bold", hjust = 0.5, color = "black"), axis.ticks.x = element_blank()) +
+  geom_hline(yintercept = 0, linetype = "solid", color = "black", linewidth = 1.5)+
+  scale_x_discrete(labels = c("Symbolic" = "Symbolic\nAction", "Truth Dependent" = "Truth-Dependent\nAction"))  
+
+
+
+#Directionality
+D.Plot.cert <- ggplot()+
+    geom_violin(data = wd %>% filter(Framing == "Directionality"), aes(x = ActionType, y = Certainty), fill = "gray30", color = NA, alpha = 0.5, adjust = 1.5)+
+   geom_rect(data = background_data, aes(xmin=xmin, xmax=xmax, ymin=ymin, ymax=ymax, fill=fill), inherit.aes = FALSE, alpha = 0.5) +
+  scale_fill_identity()+
+  geom_jitter(data = wd %>% filter(Framing == "Directionality"), aes(x = ActionType, y = Certainty), width = 0.2, height = 0.5, color = "gray10", alpha = 0.5, size = 1.5)+
+  geom_point(data = certainty.FramingActionType.summary %>% filter(Framing == "Directionality"), aes(x = ActionType, y = mean_score, color = ActionType), position = position_dodge(0), size = 6, color = "navyblue")+
+  geom_point(data = certainty.FramingActionType.summary %>% filter(Framing == "Directionality"), aes(x = ActionType, y = mean_score, color = ActionType), position = position_dodge(0), size = 5, color = "black")+
+  geom_errorbar(data = certainty.FramingActionType.summary %>% filter(Framing == "Directionality"), aes(x = ActionType, ymin = mean_score - me, ymax = mean_score + me), width = 0.06, position = position_dodge(0.9), color = "black", size = 1)+
+  scale_y_continuous(breaks = -3:3,labels = custom_labelsD, limits = c(-3, 3), expand = c(0, 0))+
+  labs(x = "", y = "", title = "Directional v. Non-Directional") +
+  theme_bw() +
+  theme(panel.background = element_blank(), legend.position = "none", axis.text.x = element_text(size = 13, face = "bold", color = "black"), axis.text.y = element_text(size = 12), plot.margin = margin(t = 1, r = 1, b = 1, l = 1, unit = "pt"), plot.title = element_text(size = 13, face = "bold", hjust = 0.5, color = "black"), axis.ticks.x = element_blank()) +
+  geom_hline(yintercept = 0, linetype = "solid", color = "black", linewidth = 1.5)+
+  scale_x_discrete(labels = c("Symbolic" = "Symbolic\nAction", "Truth Dependent" = "Truth-Dependent\nAction"))  
+
+
+PlotCertainty <- BP.Plot.cert + D.Plot.cert + TB.Plot.cert    + 
+  plot_layout(guides = 'collect') &
+  theme(plot.margin = margin(5.5, 25, 5.5, 7, "pt"))
+PlotCertainty
+
+```
+
+4.3 Analyses for certianty
+```{r}
+print("XXXXXXX BinaryProbabilistic XXXXXXXXX")
+model <- glm(Certainty ~ ActionType + Key, data = BP)
+summary(model)
+
+print("XXXXXXX Directionality XXXXXXXXX")
+model <- glm(Certainty ~ ActionType + Key, data = D)
+summary(model)
+
+print("XXXXXXX ThinkBelieve XXXXXXXXX")
+model <- glm(Certainty ~ ActionType + Key, data = TB)
+summary(model)
+
+
+```
+
+#Descriptive analyises and graphs for certainty w/o framing.
+```{r, fig.width=15, fig.height=5}
+# Plot for ThinkBelieve
+ThinkBelieve.Plot <- ggplot() +
+  geom_violin(data = wd %>% filter(Framing == "ThinkBelieve"), 
+              aes(x = Framing, y = Certainty), 
+              fill = "gray30", color = NA, alpha = 0.5) +
+  geom_jitter(data = wd %>% filter(Framing == "ThinkBelieve"), 
+              aes(x = Framing, y = Certainty), 
+              width = 0.2, height = 0.5, color = "gray10", alpha = 0.5, size = 1.5) +
+  stat_summary(data = wd %>% filter(Framing == "ThinkBelieve"), 
+               aes(x = Framing, y = Certainty), 
+               fun = mean, geom = "point", size = 6, color = "navyblue") +
+  stat_summary(data = wd %>% filter(Framing == "ThinkBelieve"), 
+               aes(x = Framing, y = Certainty), 
+               fun = mean, geom = "point", size = 5, color = "black") +
+  scale_y_continuous(breaks = seq(-3, 3, 1), limits = c(-3, 3), expand = c(0, 0)) +
+  labs(x = "", y = "Certainty", title = "'Believes' v. 'Thinks'") +
+  theme_bw() +
+  theme(panel.background = element_blank(), 
+        legend.position = "none", 
+        axis.text.x = element_blank(), 
+        axis.text.y = element_text(size = 12), 
+        plot.title = element_text(size = 13, face = "bold", hjust = 0.5, color = "black")) +
+  geom_hline(yintercept = 0, linetype = "solid", color = "black", linewidth = 1.5)
+
+# Plot for BinaryProbable
+BinaryProbable.Plot <- ggplot() +
+  geom_violin(data = wd %>% filter(Framing == "BinaryProbable"), 
+              aes(x = Framing, y = Certainty), 
+              fill = "gray30", color = NA, alpha = 0.5) +
+  geom_jitter(data = wd %>% filter(Framing == "BinaryProbable"), 
+              aes(x = Framing, y = Certainty), 
+              width = 0.2, height = 0.5, color = "gray10", alpha = 0.5, size = 1.5) +
+  stat_summary(data = wd %>% filter(Framing == "BinaryProbable"), 
+               aes(x = Framing, y = Certainty), 
+               fun = mean, geom = "point", size = 6, color = "navyblue") +
+  stat_summary(data = wd %>% filter(Framing == "BinaryProbable"), 
+               aes(x = Framing, y = Certainty), 
+               fun = mean, geom = "point", size = 5, color = "black") +
+  scale_y_continuous(breaks = seq(-3, 3, 1), limits = c(-3, 3), expand = c(0, 0)) +
+  labs(x = "", y = "Certainty", title = "Binary v. Probabilistic") +
+  theme_bw() +
+  theme(panel.background = element_blank(), 
+        legend.position = "none", 
+        axis.text.x = element_blank(), 
+        axis.text.y = element_text(size = 12), 
+        plot.title = element_text(size = 13, face = "bold", hjust = 0.5, color = "black")) +
+  geom_hline(yintercept = 0, linetype = "solid", color = "black", linewidth = 1.5)
+
+# Plot for Directionality
+Directionality.Plot <- ggplot() +
+  geom_violin(data = wd %>% filter(Framing == "Directionality"), 
+              aes(x = Framing, y = Certainty), 
+              fill = "gray30", color = NA, alpha = 0.5) +
+  geom_jitter(data = wd %>% filter(Framing == "Directionality"), 
+              aes(x = Framing, y = Certainty), 
+              width = 0.2, height = 0.5, color = "gray10", alpha = 0.5, size = 1.5) +
+  stat_summary(data = wd %>% filter(Framing == "Directionality"), 
+               aes(x = Framing, y = Certainty), 
+               fun = mean, geom = "point", size = 6, color = "navyblue") +
+  stat_summary(data = wd %>% filter(Framing == "Directionality"), 
+               aes(x = Framing, y = Certainty), 
+               fun = mean, geom = "point", size = 5, color = "black") +
+  scale_y_continuous(breaks = seq(-3, 3, 1), limits = c(-3, 3), expand = c(0, 0)) +
+  labs(x = "", y = "Certainty", title = "Directional v. Non-Directional") +
+  theme_bw() +
+  theme(panel.background = element_blank(), 
+        legend.position = "none", 
+        axis.text.x = element_blank(), 
+        axis.text.y = element_text(size = 12), 
+        plot.title = element_text(size = 13, face = "bold", hjust = 0.5, color = "black")) +
+  geom_hline(yintercept = 0, linetype = "solid", color = "black", linewidth = 1.5)
+
+# Combine the three plots into one figure
+Combined_Certainty_Plots <-  BinaryProbable.Plot + Directionality.Plot + ThinkBelieve.Plot +
+  plot_layout(guides = 'collect') &
+  theme(plot.margin = margin(5.5, 25, 5.5, 7, "pt"))
+
+# Print the combined plots
+Combined_Certainty_Plots
+
+
+
+
+# Summarize data for Framing (ignoring ActionType)
+certainty.Framing.summary <- wd %>%
+  group_by(Framing) %>%
+  dplyr::summarize(
+    mean_score = mean(Certainty),
+    N = n(),
+    sd = sd(Certainty),
+    se = sd / sqrt(N),
+    me = qt(.975, N-1) * sd / sqrt(N),
+    lower_bound = mean_score - me,
+    upper_bound = mean_score + me,
+    p_value = t.test(Certainty, mu = 0)$p.value, # Testing against a population mean of 0
+    significant = p_value < 0.05
+  ) %>%
+  ungroup()
+
+# Print the summary
+certainty.Framing.summary
+```

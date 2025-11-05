@@ -1,0 +1,1503 @@
+participant_id,key,framing,action_type,question,value
+1,Republican,Directionality,Truth Dependent,Action,-1
+1,Republican,Directionality,Truth Dependent,Certainty,-3
+2,AI,ThinkBelieve,Truth Dependent,Action,2
+2,AI,ThinkBelieve,Truth Dependent,Certainty,-3
+3,AI,Directionality,Symbolic,Action,-3
+3,AI,Directionality,Symbolic,Certainty,-3
+4,AI,BinaryProbable,Truth Dependent,Action,2
+4,AI,BinaryProbable,Truth Dependent,Certainty,-3
+5,Aliens,BinaryProbable,Symbolic,Action,-1
+5,Aliens,BinaryProbable,Symbolic,Certainty,-3
+6,Aliens,ThinkBelieve,Symbolic,Action,-3
+6,Aliens,ThinkBelieve,Symbolic,Certainty,-3
+7,Aliens,BinaryProbable,Truth Dependent,Action,0
+7,Aliens,BinaryProbable,Truth Dependent,Certainty,2
+8,Jesus,Directionality,Symbolic,Action,-2
+8,Jesus,Directionality,Symbolic,Certainty,3
+9,Republican,BinaryProbable,Symbolic,Action,-2
+9,Republican,BinaryProbable,Symbolic,Certainty,-2
+10,Jesus,ThinkBelieve,Symbolic,Action,-2
+10,Jesus,ThinkBelieve,Symbolic,Certainty,-1
+11,Aliens,Directionality,Truth Dependent,Action,-3
+11,Aliens,Directionality,Truth Dependent,Certainty,-2
+12,Aliens,ThinkBelieve,Truth Dependent,Action,-2
+12,Aliens,ThinkBelieve,Truth Dependent,Certainty,-2
+13,Jesus,ThinkBelieve,Symbolic,Action,-3
+13,Jesus,ThinkBelieve,Symbolic,Certainty,-3
+14,Jesus,Directionality,Truth Dependent,Action,2
+14,Jesus,Directionality,Truth Dependent,Certainty,-2
+15,AI,ThinkBelieve,Truth Dependent,Action,-2
+15,AI,ThinkBelieve,Truth Dependent,Certainty,-2
+16,AI,BinaryProbable,Truth Dependent,Action,3
+16,AI,BinaryProbable,Truth Dependent,Certainty,3
+17,Jesus,BinaryProbable,Symbolic,Action,-2
+17,Jesus,BinaryProbable,Symbolic,Certainty,-2
+18,Republican,BinaryProbable,Symbolic,Action,0
+18,Republican,BinaryProbable,Symbolic,Certainty,0
+19,Chickens,ThinkBelieve,Symbolic,Action,-2
+19,Chickens,ThinkBelieve,Symbolic,Certainty,-2
+20,Jesus,ThinkBelieve,Truth Dependent,Action,-2
+20,Jesus,ThinkBelieve,Truth Dependent,Certainty,-2
+21,Republican,BinaryProbable,Truth Dependent,Action,-2
+21,Republican,BinaryProbable,Truth Dependent,Certainty,-2
+22,Aliens,BinaryProbable,Symbolic,Action,-3
+22,Aliens,BinaryProbable,Symbolic,Certainty,-2
+23,Republican,Directionality,Symbolic,Action,-3
+23,Republican,Directionality,Symbolic,Certainty,-3
+24,Chickens,ThinkBelieve,Symbolic,Action,-2
+24,Chickens,ThinkBelieve,Symbolic,Certainty,-2
+25,Republican,Directionality,Truth Dependent,Action,1
+25,Republican,Directionality,Truth Dependent,Certainty,0
+26,AI,BinaryProbable,Truth Dependent,Action,1
+26,AI,BinaryProbable,Truth Dependent,Certainty,-2
+27,Chickens,ThinkBelieve,Symbolic,Action,-2
+27,Chickens,ThinkBelieve,Symbolic,Certainty,-1
+28,Republican,Directionality,Truth Dependent,Action,-1
+28,Republican,Directionality,Truth Dependent,Certainty,0
+29,Jesus,ThinkBelieve,Truth Dependent,Action,-2
+29,Jesus,ThinkBelieve,Truth Dependent,Certainty,-2
+30,Jesus,Directionality,Truth Dependent,Action,-1
+30,Jesus,Directionality,Truth Dependent,Certainty,-2
+31,Aliens,BinaryProbable,Symbolic,Action,-3
+31,Aliens,BinaryProbable,Symbolic,Certainty,-3
+32,Aliens,BinaryProbable,Truth Dependent,Action,-3
+32,Aliens,BinaryProbable,Truth Dependent,Certainty,-3
+33,Jesus,Directionality,Symbolic,Action,-2
+33,Jesus,Directionality,Symbolic,Certainty,0
+34,Republican,Directionality,Symbolic,Action,-3
+34,Republican,Directionality,Symbolic,Certainty,-3
+35,Aliens,BinaryProbable,Truth Dependent,Action,-2
+35,Aliens,BinaryProbable,Truth Dependent,Certainty,-3
+36,Republican,ThinkBelieve,Truth Dependent,Action,-1
+36,Republican,ThinkBelieve,Truth Dependent,Certainty,-2
+37,Aliens,BinaryProbable,Truth Dependent,Action,-2
+37,Aliens,BinaryProbable,Truth Dependent,Certainty,-2
+38,Chickens,Directionality,Symbolic,Action,0
+38,Chickens,Directionality,Symbolic,Certainty,0
+39,Aliens,BinaryProbable,Symbolic,Action,0
+39,Aliens,BinaryProbable,Symbolic,Certainty,-1
+40,Aliens,ThinkBelieve,Symbolic,Action,-1
+40,Aliens,ThinkBelieve,Symbolic,Certainty,-1
+41,Republican,ThinkBelieve,Truth Dependent,Action,-2
+41,Republican,ThinkBelieve,Truth Dependent,Certainty,-2
+42,Aliens,Directionality,Truth Dependent,Action,1
+42,Aliens,Directionality,Truth Dependent,Certainty,-2
+43,Jesus,Directionality,Symbolic,Action,-3
+43,Jesus,Directionality,Symbolic,Certainty,-3
+44,AI,ThinkBelieve,Symbolic,Action,0
+44,AI,ThinkBelieve,Symbolic,Certainty,1
+45,Aliens,Directionality,Truth Dependent,Action,-2
+45,Aliens,Directionality,Truth Dependent,Certainty,-3
+46,Jesus,ThinkBelieve,Truth Dependent,Action,-3
+46,Jesus,ThinkBelieve,Truth Dependent,Certainty,-3
+47,Chickens,Directionality,Symbolic,Action,-2
+47,Chickens,Directionality,Symbolic,Certainty,-2
+48,Chickens,BinaryProbable,Symbolic,Action,-2
+48,Chickens,BinaryProbable,Symbolic,Certainty,3
+49,Republican,BinaryProbable,Symbolic,Action,-3
+49,Republican,BinaryProbable,Symbolic,Certainty,-3
+50,Jesus,Directionality,Truth Dependent,Action,1
+50,Jesus,Directionality,Truth Dependent,Certainty,-3
+51,Aliens,ThinkBelieve,Symbolic,Action,-3
+51,Aliens,ThinkBelieve,Symbolic,Certainty,-2
+52,Jesus,BinaryProbable,Truth Dependent,Action,3
+52,Jesus,BinaryProbable,Truth Dependent,Certainty,-3
+53,Chickens,ThinkBelieve,Truth Dependent,Action,-2
+53,Chickens,ThinkBelieve,Truth Dependent,Certainty,-3
+54,Aliens,Directionality,Truth Dependent,Action,-1
+54,Aliens,Directionality,Truth Dependent,Certainty,-3
+55,AI,BinaryProbable,Symbolic,Action,-3
+55,AI,BinaryProbable,Symbolic,Certainty,-3
+56,Republican,ThinkBelieve,Symbolic,Action,-3
+56,Republican,ThinkBelieve,Symbolic,Certainty,-3
+57,Chickens,Directionality,Symbolic,Action,-2
+57,Chickens,Directionality,Symbolic,Certainty,-3
+58,Republican,BinaryProbable,Truth Dependent,Action,-1
+58,Republican,BinaryProbable,Truth Dependent,Certainty,-2
+59,Jesus,BinaryProbable,Truth Dependent,Action,-1
+59,Jesus,BinaryProbable,Truth Dependent,Certainty,-3
+60,Chickens,ThinkBelieve,Truth Dependent,Action,-3
+60,Chickens,ThinkBelieve,Truth Dependent,Certainty,-3
+61,Chickens,Directionality,Truth Dependent,Action,-2
+61,Chickens,Directionality,Truth Dependent,Certainty,-2
+62,Aliens,Directionality,Truth Dependent,Action,-3
+62,Aliens,Directionality,Truth Dependent,Certainty,-2
+63,Republican,ThinkBelieve,Truth Dependent,Action,-3
+63,Republican,ThinkBelieve,Truth Dependent,Certainty,-3
+64,Jesus,Directionality,Symbolic,Action,-2
+64,Jesus,Directionality,Symbolic,Certainty,-2
+65,Republican,BinaryProbable,Symbolic,Action,-2
+65,Republican,BinaryProbable,Symbolic,Certainty,-2
+66,AI,ThinkBelieve,Symbolic,Action,-2
+66,AI,ThinkBelieve,Symbolic,Certainty,-2
+67,Jesus,ThinkBelieve,Symbolic,Action,-3
+67,Jesus,ThinkBelieve,Symbolic,Certainty,-3
+68,Republican,BinaryProbable,Symbolic,Action,0
+68,Republican,BinaryProbable,Symbolic,Certainty,1
+69,Republican,Directionality,Symbolic,Action,-3
+69,Republican,Directionality,Symbolic,Certainty,-3
+70,Republican,BinaryProbable,Truth Dependent,Action,-2
+70,Republican,BinaryProbable,Truth Dependent,Certainty,-2
+71,Jesus,BinaryProbable,Truth Dependent,Action,3
+71,Jesus,BinaryProbable,Truth Dependent,Certainty,-3
+72,AI,Directionality,Truth Dependent,Action,1
+72,AI,Directionality,Truth Dependent,Certainty,-1
+73,Chickens,Directionality,Symbolic,Action,-2
+73,Chickens,Directionality,Symbolic,Certainty,0
+74,Jesus,ThinkBelieve,Truth Dependent,Action,3
+74,Jesus,ThinkBelieve,Truth Dependent,Certainty,-3
+75,Aliens,ThinkBelieve,Symbolic,Action,-2
+75,Aliens,ThinkBelieve,Symbolic,Certainty,-2
+76,Aliens,ThinkBelieve,Symbolic,Action,-3
+76,Aliens,ThinkBelieve,Symbolic,Certainty,0
+77,Republican,BinaryProbable,Symbolic,Action,0
+77,Republican,BinaryProbable,Symbolic,Certainty,-1
+78,AI,ThinkBelieve,Truth Dependent,Action,-2
+78,AI,ThinkBelieve,Truth Dependent,Certainty,2
+79,AI,BinaryProbable,Truth Dependent,Action,-1
+79,AI,BinaryProbable,Truth Dependent,Certainty,-2
+80,Chickens,Directionality,Symbolic,Action,-1
+80,Chickens,Directionality,Symbolic,Certainty,-2
+81,Republican,Directionality,Truth Dependent,Action,-2
+81,Republican,Directionality,Truth Dependent,Certainty,-3
+82,AI,BinaryProbable,Symbolic,Action,0
+82,AI,BinaryProbable,Symbolic,Certainty,-2
+83,Aliens,ThinkBelieve,Symbolic,Action,-3
+83,Aliens,ThinkBelieve,Symbolic,Certainty,-3
+84,Jesus,BinaryProbable,Symbolic,Action,-3
+84,Jesus,BinaryProbable,Symbolic,Certainty,-2
+85,Chickens,Directionality,Truth Dependent,Action,-2
+85,Chickens,Directionality,Truth Dependent,Certainty,-3
+86,Republican,ThinkBelieve,Truth Dependent,Action,0
+86,Republican,ThinkBelieve,Truth Dependent,Certainty,-1
+87,AI,BinaryProbable,Symbolic,Action,-3
+87,AI,BinaryProbable,Symbolic,Certainty,-3
+88,Republican,Directionality,Symbolic,Action,-3
+88,Republican,Directionality,Symbolic,Certainty,-3
+89,Chickens,BinaryProbable,Truth Dependent,Action,-1
+89,Chickens,BinaryProbable,Truth Dependent,Certainty,-3
+90,Jesus,Directionality,Symbolic,Action,-2
+90,Jesus,Directionality,Symbolic,Certainty,-3
+91,Republican,ThinkBelieve,Symbolic,Action,-2
+91,Republican,ThinkBelieve,Symbolic,Certainty,-2
+92,Republican,BinaryProbable,Truth Dependent,Action,-2
+92,Republican,BinaryProbable,Truth Dependent,Certainty,-3
+93,Republican,Directionality,Truth Dependent,Action,2
+93,Republican,Directionality,Truth Dependent,Certainty,2
+94,Jesus,BinaryProbable,Symbolic,Action,-2
+94,Jesus,BinaryProbable,Symbolic,Certainty,-3
+95,AI,ThinkBelieve,Symbolic,Action,-2
+95,AI,ThinkBelieve,Symbolic,Certainty,-2
+96,Chickens,ThinkBelieve,Truth Dependent,Action,-2
+96,Chickens,ThinkBelieve,Truth Dependent,Certainty,3
+97,Aliens,BinaryProbable,Truth Dependent,Action,-3
+97,Aliens,BinaryProbable,Truth Dependent,Certainty,-3
+98,Republican,Directionality,Symbolic,Action,-2
+98,Republican,Directionality,Symbolic,Certainty,-2
+99,AI,ThinkBelieve,Truth Dependent,Action,2
+99,AI,ThinkBelieve,Truth Dependent,Certainty,-3
+100,AI,Directionality,Truth Dependent,Action,-3
+100,AI,Directionality,Truth Dependent,Certainty,-3
+101,Aliens,Directionality,Truth Dependent,Action,-1
+101,Aliens,Directionality,Truth Dependent,Certainty,-2
+102,Republican,ThinkBelieve,Symbolic,Action,-3
+102,Republican,ThinkBelieve,Symbolic,Certainty,-3
+103,Chickens,Directionality,Symbolic,Action,-3
+103,Chickens,Directionality,Symbolic,Certainty,-3
+104,Aliens,BinaryProbable,Truth Dependent,Action,1
+104,Aliens,BinaryProbable,Truth Dependent,Certainty,1
+105,AI,BinaryProbable,Symbolic,Action,2
+105,AI,BinaryProbable,Symbolic,Certainty,-3
+106,Republican,ThinkBelieve,Truth Dependent,Action,-1
+106,Republican,ThinkBelieve,Truth Dependent,Certainty,0
+107,Chickens,ThinkBelieve,Truth Dependent,Action,-1
+107,Chickens,ThinkBelieve,Truth Dependent,Certainty,-1
+108,Jesus,BinaryProbable,Truth Dependent,Action,2
+108,Jesus,BinaryProbable,Truth Dependent,Certainty,-3
+109,Republican,ThinkBelieve,Symbolic,Action,0
+109,Republican,ThinkBelieve,Symbolic,Certainty,-1
+110,Republican,Directionality,Symbolic,Action,-3
+110,Republican,Directionality,Symbolic,Certainty,-3
+111,Aliens,BinaryProbable,Symbolic,Action,1
+111,Aliens,BinaryProbable,Symbolic,Certainty,1
+112,AI,Directionality,Truth Dependent,Action,2
+112,AI,Directionality,Truth Dependent,Certainty,3
+113,Jesus,BinaryProbable,Truth Dependent,Action,-2
+113,Jesus,BinaryProbable,Truth Dependent,Certainty,-3
+114,Republican,Directionality,Truth Dependent,Action,-1
+114,Republican,Directionality,Truth Dependent,Certainty,-3
+115,Aliens,Directionality,Symbolic,Action,1
+115,Aliens,Directionality,Symbolic,Certainty,1
+116,Republican,ThinkBelieve,Symbolic,Action,-3
+116,Republican,ThinkBelieve,Symbolic,Certainty,-3
+117,Aliens,ThinkBelieve,Truth Dependent,Action,-3
+117,Aliens,ThinkBelieve,Truth Dependent,Certainty,-2
+118,AI,Directionality,Truth Dependent,Action,2
+118,AI,Directionality,Truth Dependent,Certainty,2
+119,Jesus,Directionality,Symbolic,Action,-3
+119,Jesus,Directionality,Symbolic,Certainty,-3
+120,Jesus,BinaryProbable,Symbolic,Action,-3
+120,Jesus,BinaryProbable,Symbolic,Certainty,-2
+121,AI,ThinkBelieve,Truth Dependent,Action,-2
+121,AI,ThinkBelieve,Truth Dependent,Certainty,-3
+122,Aliens,ThinkBelieve,Symbolic,Action,0
+122,Aliens,ThinkBelieve,Symbolic,Certainty,-1
+123,AI,BinaryProbable,Truth Dependent,Action,-2
+123,AI,BinaryProbable,Truth Dependent,Certainty,-3
+124,Republican,BinaryProbable,Symbolic,Action,0
+124,Republican,BinaryProbable,Symbolic,Certainty,1
+125,Aliens,BinaryProbable,Truth Dependent,Action,-3
+125,Aliens,BinaryProbable,Truth Dependent,Certainty,-3
+126,Chickens,ThinkBelieve,Truth Dependent,Action,-2
+126,Chickens,ThinkBelieve,Truth Dependent,Certainty,-2
+127,AI,Directionality,Truth Dependent,Action,3
+127,AI,Directionality,Truth Dependent,Certainty,-3
+128,Aliens,ThinkBelieve,Truth Dependent,Action,-2
+128,Aliens,ThinkBelieve,Truth Dependent,Certainty,-3
+129,Chickens,ThinkBelieve,Symbolic,Action,2
+129,Chickens,ThinkBelieve,Symbolic,Certainty,2
+130,Aliens,BinaryProbable,Symbolic,Action,3
+130,Aliens,BinaryProbable,Symbolic,Certainty,3
+131,Chickens,Directionality,Truth Dependent,Action,-2
+131,Chickens,Directionality,Truth Dependent,Certainty,-2
+132,Jesus,Directionality,Symbolic,Action,3
+132,Jesus,Directionality,Symbolic,Certainty,3
+133,AI,BinaryProbable,Truth Dependent,Action,-3
+133,AI,BinaryProbable,Truth Dependent,Certainty,-3
+134,AI,BinaryProbable,Symbolic,Action,-2
+134,AI,BinaryProbable,Symbolic,Certainty,2
+135,Jesus,Directionality,Truth Dependent,Action,-2
+135,Jesus,Directionality,Truth Dependent,Certainty,-2
+136,Jesus,Directionality,Symbolic,Action,-2
+136,Jesus,Directionality,Symbolic,Certainty,-2
+137,Jesus,ThinkBelieve,Symbolic,Action,-2
+137,Jesus,ThinkBelieve,Symbolic,Certainty,-3
+138,Republican,ThinkBelieve,Truth Dependent,Action,-3
+138,Republican,ThinkBelieve,Truth Dependent,Certainty,-3
+139,Republican,Directionality,Symbolic,Action,1
+139,Republican,Directionality,Symbolic,Certainty,2
+140,AI,BinaryProbable,Symbolic,Action,3
+140,AI,BinaryProbable,Symbolic,Certainty,3
+141,Republican,ThinkBelieve,Symbolic,Action,-3
+141,Republican,ThinkBelieve,Symbolic,Certainty,-3
+142,AI,ThinkBelieve,Truth Dependent,Action,0
+142,AI,ThinkBelieve,Truth Dependent,Certainty,-2
+143,Aliens,BinaryProbable,Truth Dependent,Action,2
+143,Aliens,BinaryProbable,Truth Dependent,Certainty,-2
+144,Aliens,BinaryProbable,Symbolic,Action,-1
+144,Aliens,BinaryProbable,Symbolic,Certainty,1
+145,Aliens,Directionality,Symbolic,Action,-2
+145,Aliens,Directionality,Symbolic,Certainty,-2
+146,AI,BinaryProbable,Truth Dependent,Action,-3
+146,AI,BinaryProbable,Truth Dependent,Certainty,-3
+147,Jesus,ThinkBelieve,Symbolic,Action,-3
+147,Jesus,ThinkBelieve,Symbolic,Certainty,-3
+148,Republican,BinaryProbable,Truth Dependent,Action,0
+148,Republican,BinaryProbable,Truth Dependent,Certainty,0
+149,Aliens,ThinkBelieve,Symbolic,Action,1
+149,Aliens,ThinkBelieve,Symbolic,Certainty,2
+150,Chickens,Directionality,Symbolic,Action,-1
+150,Chickens,Directionality,Symbolic,Certainty,-2
+151,AI,Directionality,Truth Dependent,Action,-2
+151,AI,Directionality,Truth Dependent,Certainty,-3
+152,Aliens,ThinkBelieve,Truth Dependent,Action,-2
+152,Aliens,ThinkBelieve,Truth Dependent,Certainty,-2
+153,Republican,ThinkBelieve,Symbolic,Action,-2
+153,Republican,ThinkBelieve,Symbolic,Certainty,-3
+154,Republican,BinaryProbable,Symbolic,Action,0
+154,Republican,BinaryProbable,Symbolic,Certainty,0
+155,AI,ThinkBelieve,Truth Dependent,Action,2
+155,AI,ThinkBelieve,Truth Dependent,Certainty,-1
+156,AI,Directionality,Symbolic,Action,-2
+156,AI,Directionality,Symbolic,Certainty,2
+157,Republican,BinaryProbable,Symbolic,Action,-1
+157,Republican,BinaryProbable,Symbolic,Certainty,2
+158,AI,Directionality,Truth Dependent,Action,3
+158,AI,Directionality,Truth Dependent,Certainty,-3
+159,Chickens,ThinkBelieve,Symbolic,Action,-1
+159,Chickens,ThinkBelieve,Symbolic,Certainty,-2
+160,Chickens,BinaryProbable,Symbolic,Action,0
+160,Chickens,BinaryProbable,Symbolic,Certainty,0
+161,Chickens,BinaryProbable,Symbolic,Action,-3
+161,Chickens,BinaryProbable,Symbolic,Certainty,-3
+162,Jesus,Directionality,Truth Dependent,Action,3
+162,Jesus,Directionality,Truth Dependent,Certainty,-3
+163,Jesus,BinaryProbable,Truth Dependent,Action,3
+163,Jesus,BinaryProbable,Truth Dependent,Certainty,-3
+164,Aliens,ThinkBelieve,Truth Dependent,Action,-2
+164,Aliens,ThinkBelieve,Truth Dependent,Certainty,-2
+165,Chickens,Directionality,Symbolic,Action,-3
+165,Chickens,Directionality,Symbolic,Certainty,-3
+166,Republican,Directionality,Symbolic,Action,-2
+166,Republican,Directionality,Symbolic,Certainty,0
+167,AI,ThinkBelieve,Truth Dependent,Action,-2
+167,AI,ThinkBelieve,Truth Dependent,Certainty,-3
+168,Aliens,Directionality,Truth Dependent,Action,3
+168,Aliens,Directionality,Truth Dependent,Certainty,-3
+169,Chickens,BinaryProbable,Truth Dependent,Action,-1
+169,Chickens,BinaryProbable,Truth Dependent,Certainty,-3
+170,Chickens,ThinkBelieve,Symbolic,Action,-2
+170,Chickens,ThinkBelieve,Symbolic,Certainty,-3
+171,Aliens,BinaryProbable,Symbolic,Action,-2
+171,Aliens,BinaryProbable,Symbolic,Certainty,-3
+172,Republican,BinaryProbable,Truth Dependent,Action,2
+172,Republican,BinaryProbable,Truth Dependent,Certainty,2
+173,Aliens,ThinkBelieve,Symbolic,Action,-2
+173,Aliens,ThinkBelieve,Symbolic,Certainty,-2
+174,Chickens,Directionality,Symbolic,Action,-2
+174,Chickens,Directionality,Symbolic,Certainty,-3
+175,Chickens,BinaryProbable,Truth Dependent,Action,1
+175,Chickens,BinaryProbable,Truth Dependent,Certainty,1
+176,Aliens,ThinkBelieve,Truth Dependent,Action,-1
+176,Aliens,ThinkBelieve,Truth Dependent,Certainty,-1
+177,Chickens,ThinkBelieve,Truth Dependent,Action,-3
+177,Chickens,ThinkBelieve,Truth Dependent,Certainty,-3
+178,Jesus,Directionality,Symbolic,Action,-2
+178,Jesus,Directionality,Symbolic,Certainty,-2
+179,Jesus,ThinkBelieve,Symbolic,Action,2
+179,Jesus,ThinkBelieve,Symbolic,Certainty,-2
+180,Republican,BinaryProbable,Truth Dependent,Action,-1
+180,Republican,BinaryProbable,Truth Dependent,Certainty,-2
+181,Republican,ThinkBelieve,Symbolic,Action,-1
+181,Republican,ThinkBelieve,Symbolic,Certainty,-1
+182,Jesus,ThinkBelieve,Symbolic,Action,-2
+182,Jesus,ThinkBelieve,Symbolic,Certainty,-1
+183,Jesus,Directionality,Truth Dependent,Action,-3
+183,Jesus,Directionality,Truth Dependent,Certainty,-3
+184,Republican,Directionality,Truth Dependent,Action,-3
+184,Republican,Directionality,Truth Dependent,Certainty,-3
+185,Jesus,BinaryProbable,Truth Dependent,Action,-2
+185,Jesus,BinaryProbable,Truth Dependent,Certainty,-3
+186,Republican,Directionality,Truth Dependent,Action,0
+186,Republican,Directionality,Truth Dependent,Certainty,-2
+187,Aliens,ThinkBelieve,Truth Dependent,Action,-3
+187,Aliens,ThinkBelieve,Truth Dependent,Certainty,-3
+188,Aliens,ThinkBelieve,Truth Dependent,Action,1
+188,Aliens,ThinkBelieve,Truth Dependent,Certainty,1
+189,Chickens,BinaryProbable,Symbolic,Action,2
+189,Chickens,BinaryProbable,Symbolic,Certainty,2
+190,Jesus,BinaryProbable,Symbolic,Action,-1
+190,Jesus,BinaryProbable,Symbolic,Certainty,-2
+191,Jesus,BinaryProbable,Symbolic,Action,-1
+191,Jesus,BinaryProbable,Symbolic,Certainty,-3
+192,Aliens,BinaryProbable,Symbolic,Action,-3
+192,Aliens,BinaryProbable,Symbolic,Certainty,-3
+193,Republican,BinaryProbable,Truth Dependent,Action,-3
+193,Republican,BinaryProbable,Truth Dependent,Certainty,-3
+194,Jesus,Directionality,Symbolic,Action,-1
+194,Jesus,Directionality,Symbolic,Certainty,-2
+195,Chickens,ThinkBelieve,Symbolic,Action,-2
+195,Chickens,ThinkBelieve,Symbolic,Certainty,-3
+196,Republican,Directionality,Truth Dependent,Action,-2
+196,Republican,Directionality,Truth Dependent,Certainty,-2
+197,Jesus,Directionality,Truth Dependent,Action,0
+197,Jesus,Directionality,Truth Dependent,Certainty,-3
+198,Aliens,ThinkBelieve,Truth Dependent,Action,2
+198,Aliens,ThinkBelieve,Truth Dependent,Certainty,2
+199,Chickens,Directionality,Symbolic,Action,-1
+199,Chickens,Directionality,Symbolic,Certainty,-3
+200,Republican,BinaryProbable,Truth Dependent,Action,0
+200,Republican,BinaryProbable,Truth Dependent,Certainty,1
+201,Republican,BinaryProbable,Truth Dependent,Action,-3
+201,Republican,BinaryProbable,Truth Dependent,Certainty,-3
+202,AI,ThinkBelieve,Truth Dependent,Action,-1
+202,AI,ThinkBelieve,Truth Dependent,Certainty,-2
+203,Jesus,Directionality,Truth Dependent,Action,2
+203,Jesus,Directionality,Truth Dependent,Certainty,-1
+204,Aliens,BinaryProbable,Truth Dependent,Action,-3
+204,Aliens,BinaryProbable,Truth Dependent,Certainty,-3
+205,Republican,ThinkBelieve,Symbolic,Action,-2
+205,Republican,ThinkBelieve,Symbolic,Certainty,-2
+206,Jesus,BinaryProbable,Symbolic,Action,-2
+206,Jesus,BinaryProbable,Symbolic,Certainty,-3
+207,Chickens,ThinkBelieve,Symbolic,Action,-3
+207,Chickens,ThinkBelieve,Symbolic,Certainty,-3
+208,AI,BinaryProbable,Symbolic,Action,-2
+208,AI,BinaryProbable,Symbolic,Certainty,-3
+209,Republican,Directionality,Symbolic,Action,-3
+209,Republican,Directionality,Symbolic,Certainty,-1
+210,Jesus,ThinkBelieve,Truth Dependent,Action,-1
+210,Jesus,ThinkBelieve,Truth Dependent,Certainty,2
+211,AI,Directionality,Symbolic,Action,-2
+211,AI,Directionality,Symbolic,Certainty,-3
+212,Republican,ThinkBelieve,Truth Dependent,Action,-2
+212,Republican,ThinkBelieve,Truth Dependent,Certainty,-3
+213,Republican,Directionality,Truth Dependent,Action,-2
+213,Republican,Directionality,Truth Dependent,Certainty,-2
+214,Jesus,Directionality,Symbolic,Action,-3
+214,Jesus,Directionality,Symbolic,Certainty,-3
+215,AI,BinaryProbable,Symbolic,Action,-3
+215,AI,BinaryProbable,Symbolic,Certainty,-3
+216,Aliens,BinaryProbable,Symbolic,Action,-3
+216,Aliens,BinaryProbable,Symbolic,Certainty,-3
+217,Jesus,Directionality,Symbolic,Action,-2
+217,Jesus,Directionality,Symbolic,Certainty,-1
+218,Republican,BinaryProbable,Truth Dependent,Action,-1
+218,Republican,BinaryProbable,Truth Dependent,Certainty,-1
+219,Chickens,ThinkBelieve,Symbolic,Action,-3
+219,Chickens,ThinkBelieve,Symbolic,Certainty,-3
+220,Aliens,BinaryProbable,Truth Dependent,Action,-1
+220,Aliens,BinaryProbable,Truth Dependent,Certainty,-1
+221,Jesus,BinaryProbable,Symbolic,Action,1
+221,Jesus,BinaryProbable,Symbolic,Certainty,1
+222,Republican,Directionality,Symbolic,Action,-2
+222,Republican,Directionality,Symbolic,Certainty,2
+223,Chickens,Directionality,Truth Dependent,Action,-1
+223,Chickens,Directionality,Truth Dependent,Certainty,-1
+224,Republican,ThinkBelieve,Symbolic,Action,-3
+224,Republican,ThinkBelieve,Symbolic,Certainty,-3
+225,Aliens,Directionality,Truth Dependent,Action,-2
+225,Aliens,Directionality,Truth Dependent,Certainty,-3
+226,Aliens,BinaryProbable,Symbolic,Action,3
+226,Aliens,BinaryProbable,Symbolic,Certainty,3
+227,Aliens,ThinkBelieve,Truth Dependent,Action,-2
+227,Aliens,ThinkBelieve,Truth Dependent,Certainty,-3
+228,Aliens,BinaryProbable,Truth Dependent,Action,-2
+228,Aliens,BinaryProbable,Truth Dependent,Certainty,-2
+229,Aliens,Directionality,Symbolic,Action,1
+229,Aliens,Directionality,Symbolic,Certainty,-1
+230,AI,Directionality,Truth Dependent,Action,0
+230,AI,Directionality,Truth Dependent,Certainty,0
+231,Aliens,Directionality,Symbolic,Action,-2
+231,Aliens,Directionality,Symbolic,Certainty,-1
+232,Aliens,ThinkBelieve,Symbolic,Action,-2
+232,Aliens,ThinkBelieve,Symbolic,Certainty,-2
+233,AI,ThinkBelieve,Truth Dependent,Action,-3
+233,AI,ThinkBelieve,Truth Dependent,Certainty,-3
+234,Chickens,ThinkBelieve,Truth Dependent,Action,-2
+234,Chickens,ThinkBelieve,Truth Dependent,Certainty,-2
+235,Jesus,BinaryProbable,Truth Dependent,Action,2
+235,Jesus,BinaryProbable,Truth Dependent,Certainty,0
+236,Aliens,ThinkBelieve,Symbolic,Action,-3
+236,Aliens,ThinkBelieve,Symbolic,Certainty,-2
+237,Aliens,ThinkBelieve,Truth Dependent,Action,-3
+237,Aliens,ThinkBelieve,Truth Dependent,Certainty,-3
+238,Republican,Directionality,Truth Dependent,Action,0
+238,Republican,Directionality,Truth Dependent,Certainty,-3
+239,AI,BinaryProbable,Truth Dependent,Action,2
+239,AI,BinaryProbable,Truth Dependent,Certainty,1
+240,AI,Directionality,Truth Dependent,Action,2
+240,AI,Directionality,Truth Dependent,Certainty,-3
+241,AI,Directionality,Symbolic,Action,-1
+241,AI,Directionality,Symbolic,Certainty,-2
+242,Aliens,ThinkBelieve,Truth Dependent,Action,-1
+242,Aliens,ThinkBelieve,Truth Dependent,Certainty,-2
+243,Chickens,Directionality,Truth Dependent,Action,-3
+243,Chickens,Directionality,Truth Dependent,Certainty,-3
+244,AI,Directionality,Symbolic,Action,0
+244,AI,Directionality,Symbolic,Certainty,0
+245,AI,BinaryProbable,Truth Dependent,Action,-1
+245,AI,BinaryProbable,Truth Dependent,Certainty,-2
+246,Republican,ThinkBelieve,Symbolic,Action,-2
+246,Republican,ThinkBelieve,Symbolic,Certainty,-3
+247,Aliens,Directionality,Truth Dependent,Action,-1
+247,Aliens,Directionality,Truth Dependent,Certainty,-3
+248,AI,BinaryProbable,Symbolic,Action,-2
+248,AI,BinaryProbable,Symbolic,Certainty,-2
+249,Aliens,BinaryProbable,Truth Dependent,Action,-2
+249,Aliens,BinaryProbable,Truth Dependent,Certainty,-3
+250,Republican,BinaryProbable,Symbolic,Action,1
+250,Republican,BinaryProbable,Symbolic,Certainty,-3
+251,Jesus,ThinkBelieve,Symbolic,Action,-3
+251,Jesus,ThinkBelieve,Symbolic,Certainty,-3
+252,Jesus,Directionality,Truth Dependent,Action,2
+252,Jesus,Directionality,Truth Dependent,Certainty,1
+253,Chickens,BinaryProbable,Symbolic,Action,-2
+253,Chickens,BinaryProbable,Symbolic,Certainty,-2
+254,Republican,Directionality,Truth Dependent,Action,0
+254,Republican,Directionality,Truth Dependent,Certainty,0
+255,Republican,ThinkBelieve,Symbolic,Action,-3
+255,Republican,ThinkBelieve,Symbolic,Certainty,-3
+256,AI,ThinkBelieve,Truth Dependent,Action,-2
+256,AI,ThinkBelieve,Truth Dependent,Certainty,-2
+257,Republican,ThinkBelieve,Truth Dependent,Action,3
+257,Republican,ThinkBelieve,Truth Dependent,Certainty,0
+258,Republican,ThinkBelieve,Truth Dependent,Action,0
+258,Republican,ThinkBelieve,Truth Dependent,Certainty,0
+259,Aliens,BinaryProbable,Symbolic,Action,-2
+259,Aliens,BinaryProbable,Symbolic,Certainty,-3
+260,Chickens,Directionality,Symbolic,Action,-2
+260,Chickens,Directionality,Symbolic,Certainty,-3
+261,AI,BinaryProbable,Truth Dependent,Action,2
+261,AI,BinaryProbable,Truth Dependent,Certainty,-2
+262,Aliens,Directionality,Symbolic,Action,-3
+262,Aliens,Directionality,Symbolic,Certainty,-3
+263,AI,BinaryProbable,Symbolic,Action,2
+263,AI,BinaryProbable,Symbolic,Certainty,1
+264,Aliens,ThinkBelieve,Symbolic,Action,-1
+264,Aliens,ThinkBelieve,Symbolic,Certainty,-3
+265,AI,BinaryProbable,Truth Dependent,Action,-3
+265,AI,BinaryProbable,Truth Dependent,Certainty,-3
+266,Republican,BinaryProbable,Truth Dependent,Action,0
+266,Republican,BinaryProbable,Truth Dependent,Certainty,1
+267,Aliens,ThinkBelieve,Symbolic,Action,-2
+267,Aliens,ThinkBelieve,Symbolic,Certainty,-3
+268,Jesus,ThinkBelieve,Truth Dependent,Action,-2
+268,Jesus,ThinkBelieve,Truth Dependent,Certainty,-3
+269,Republican,BinaryProbable,Truth Dependent,Action,-1
+269,Republican,BinaryProbable,Truth Dependent,Certainty,-3
+270,Chickens,ThinkBelieve,Symbolic,Action,-3
+270,Chickens,ThinkBelieve,Symbolic,Certainty,-3
+271,AI,BinaryProbable,Symbolic,Action,-2
+271,AI,BinaryProbable,Symbolic,Certainty,-3
+272,Jesus,Directionality,Truth Dependent,Action,2
+272,Jesus,Directionality,Truth Dependent,Certainty,-2
+273,Republican,ThinkBelieve,Truth Dependent,Action,-2
+273,Republican,ThinkBelieve,Truth Dependent,Certainty,-2
+274,Chickens,ThinkBelieve,Symbolic,Action,-3
+274,Chickens,ThinkBelieve,Symbolic,Certainty,-3
+275,Aliens,Directionality,Symbolic,Action,-3
+275,Aliens,Directionality,Symbolic,Certainty,-3
+276,Chickens,ThinkBelieve,Symbolic,Action,1
+276,Chickens,ThinkBelieve,Symbolic,Certainty,3
+277,Jesus,BinaryProbable,Truth Dependent,Action,3
+277,Jesus,BinaryProbable,Truth Dependent,Certainty,-3
+278,Chickens,Directionality,Truth Dependent,Action,1
+278,Chickens,Directionality,Truth Dependent,Certainty,1
+279,Chickens,BinaryProbable,Symbolic,Action,1
+279,Chickens,BinaryProbable,Symbolic,Certainty,0
+280,Jesus,ThinkBelieve,Truth Dependent,Action,-2
+280,Jesus,ThinkBelieve,Truth Dependent,Certainty,-2
+281,Jesus,Directionality,Symbolic,Action,-2
+281,Jesus,Directionality,Symbolic,Certainty,-1
+282,Jesus,Directionality,Symbolic,Action,3
+282,Jesus,Directionality,Symbolic,Certainty,2
+283,Jesus,Directionality,Truth Dependent,Action,1
+283,Jesus,Directionality,Truth Dependent,Certainty,-2
+284,Chickens,BinaryProbable,Truth Dependent,Action,1
+284,Chickens,BinaryProbable,Truth Dependent,Certainty,2
+285,Chickens,ThinkBelieve,Truth Dependent,Action,2
+285,Chickens,ThinkBelieve,Truth Dependent,Certainty,-3
+286,AI,Directionality,Symbolic,Action,2
+286,AI,Directionality,Symbolic,Certainty,-3
+287,Chickens,BinaryProbable,Symbolic,Action,0
+287,Chickens,BinaryProbable,Symbolic,Certainty,-3
+288,Chickens,BinaryProbable,Symbolic,Action,-2
+288,Chickens,BinaryProbable,Symbolic,Certainty,-3
+289,Chickens,BinaryProbable,Symbolic,Action,-3
+289,Chickens,BinaryProbable,Symbolic,Certainty,-3
+290,Jesus,Directionality,Truth Dependent,Action,-3
+290,Jesus,Directionality,Truth Dependent,Certainty,-3
+291,Jesus,ThinkBelieve,Symbolic,Action,2
+291,Jesus,ThinkBelieve,Symbolic,Certainty,-3
+292,Republican,ThinkBelieve,Truth Dependent,Action,-2
+292,Republican,ThinkBelieve,Truth Dependent,Certainty,-1
+293,Aliens,Directionality,Truth Dependent,Action,0
+293,Aliens,Directionality,Truth Dependent,Certainty,-1
+294,AI,ThinkBelieve,Truth Dependent,Action,-3
+294,AI,ThinkBelieve,Truth Dependent,Certainty,3
+295,Aliens,ThinkBelieve,Symbolic,Action,0
+295,Aliens,ThinkBelieve,Symbolic,Certainty,-2
+296,AI,Directionality,Symbolic,Action,-3
+296,AI,Directionality,Symbolic,Certainty,-3
+297,Jesus,BinaryProbable,Symbolic,Action,-2
+297,Jesus,BinaryProbable,Symbolic,Certainty,-3
+298,Chickens,BinaryProbable,Truth Dependent,Action,-2
+298,Chickens,BinaryProbable,Truth Dependent,Certainty,-2
+299,Republican,ThinkBelieve,Symbolic,Action,-3
+299,Republican,ThinkBelieve,Symbolic,Certainty,-3
+300,Chickens,ThinkBelieve,Symbolic,Action,-2
+300,Chickens,ThinkBelieve,Symbolic,Certainty,-2
+301,Aliens,ThinkBelieve,Symbolic,Action,-1
+301,Aliens,ThinkBelieve,Symbolic,Certainty,-2
+302,AI,Directionality,Symbolic,Action,-3
+302,AI,Directionality,Symbolic,Certainty,-3
+303,Chickens,Directionality,Symbolic,Action,-2
+303,Chickens,Directionality,Symbolic,Certainty,-3
+304,AI,BinaryProbable,Truth Dependent,Action,-3
+304,AI,BinaryProbable,Truth Dependent,Certainty,-2
+305,Jesus,Directionality,Truth Dependent,Action,2
+305,Jesus,Directionality,Truth Dependent,Certainty,-2
+306,Jesus,ThinkBelieve,Truth Dependent,Action,1
+306,Jesus,ThinkBelieve,Truth Dependent,Certainty,-1
+307,Chickens,BinaryProbable,Truth Dependent,Action,-2
+307,Chickens,BinaryProbable,Truth Dependent,Certainty,-3
+308,Republican,Directionality,Symbolic,Action,-2
+308,Republican,Directionality,Symbolic,Certainty,-2
+309,Aliens,Directionality,Truth Dependent,Action,-2
+309,Aliens,Directionality,Truth Dependent,Certainty,0
+310,Aliens,BinaryProbable,Symbolic,Action,-3
+310,Aliens,BinaryProbable,Symbolic,Certainty,-3
+311,AI,BinaryProbable,Truth Dependent,Action,-2
+311,AI,BinaryProbable,Truth Dependent,Certainty,-3
+312,Chickens,Directionality,Truth Dependent,Action,-2
+312,Chickens,Directionality,Truth Dependent,Certainty,-1
+313,Chickens,ThinkBelieve,Truth Dependent,Action,2
+313,Chickens,ThinkBelieve,Truth Dependent,Certainty,3
+314,Aliens,BinaryProbable,Symbolic,Action,-1
+314,Aliens,BinaryProbable,Symbolic,Certainty,-2
+315,Aliens,BinaryProbable,Symbolic,Action,-2
+315,Aliens,BinaryProbable,Symbolic,Certainty,-3
+316,Aliens,Directionality,Truth Dependent,Action,-1
+316,Aliens,Directionality,Truth Dependent,Certainty,-3
+317,AI,ThinkBelieve,Truth Dependent,Action,-2
+317,AI,ThinkBelieve,Truth Dependent,Certainty,-2
+318,Aliens,Directionality,Symbolic,Action,-3
+318,Aliens,Directionality,Symbolic,Certainty,-3
+319,Aliens,ThinkBelieve,Truth Dependent,Action,-2
+319,Aliens,ThinkBelieve,Truth Dependent,Certainty,-2
+320,Republican,BinaryProbable,Truth Dependent,Action,-1
+320,Republican,BinaryProbable,Truth Dependent,Certainty,-3
+321,Republican,BinaryProbable,Symbolic,Action,-3
+321,Republican,BinaryProbable,Symbolic,Certainty,3
+322,AI,Directionality,Truth Dependent,Action,-2
+322,AI,Directionality,Truth Dependent,Certainty,-1
+323,AI,ThinkBelieve,Symbolic,Action,-2
+323,AI,ThinkBelieve,Symbolic,Certainty,-3
+324,Jesus,BinaryProbable,Truth Dependent,Action,-1
+324,Jesus,BinaryProbable,Truth Dependent,Certainty,-3
+325,Republican,Directionality,Truth Dependent,Action,0
+325,Republican,Directionality,Truth Dependent,Certainty,0
+326,Jesus,BinaryProbable,Truth Dependent,Action,-2
+326,Jesus,BinaryProbable,Truth Dependent,Certainty,-3
+327,Chickens,ThinkBelieve,Truth Dependent,Action,-3
+327,Chickens,ThinkBelieve,Truth Dependent,Certainty,-3
+328,AI,Directionality,Truth Dependent,Action,-2
+328,AI,Directionality,Truth Dependent,Certainty,-2
+329,Chickens,ThinkBelieve,Symbolic,Action,-2
+329,Chickens,ThinkBelieve,Symbolic,Certainty,-3
+330,Chickens,ThinkBelieve,Truth Dependent,Action,-3
+330,Chickens,ThinkBelieve,Truth Dependent,Certainty,-3
+331,AI,ThinkBelieve,Symbolic,Action,-1
+331,AI,ThinkBelieve,Symbolic,Certainty,-1
+332,Aliens,Directionality,Symbolic,Action,-1
+332,Aliens,Directionality,Symbolic,Certainty,-2
+333,Jesus,ThinkBelieve,Symbolic,Action,-2
+333,Jesus,ThinkBelieve,Symbolic,Certainty,-2
+334,Jesus,BinaryProbable,Symbolic,Action,2
+334,Jesus,BinaryProbable,Symbolic,Certainty,-3
+335,AI,BinaryProbable,Symbolic,Action,-3
+335,AI,BinaryProbable,Symbolic,Certainty,3
+336,Chickens,Directionality,Truth Dependent,Action,-2
+336,Chickens,Directionality,Truth Dependent,Certainty,-2
+337,Jesus,ThinkBelieve,Symbolic,Action,2
+337,Jesus,ThinkBelieve,Symbolic,Certainty,-3
+338,Chickens,BinaryProbable,Truth Dependent,Action,1
+338,Chickens,BinaryProbable,Truth Dependent,Certainty,-1
+339,Aliens,BinaryProbable,Truth Dependent,Action,-2
+339,Aliens,BinaryProbable,Truth Dependent,Certainty,-3
+340,Chickens,BinaryProbable,Symbolic,Action,3
+340,Chickens,BinaryProbable,Symbolic,Certainty,3
+341,AI,ThinkBelieve,Truth Dependent,Action,-3
+341,AI,ThinkBelieve,Truth Dependent,Certainty,-3
+342,Republican,Directionality,Symbolic,Action,-2
+342,Republican,Directionality,Symbolic,Certainty,2
+343,Chickens,Directionality,Symbolic,Action,0
+343,Chickens,Directionality,Symbolic,Certainty,0
+344,AI,Directionality,Symbolic,Action,-1
+344,AI,Directionality,Symbolic,Certainty,-2
+345,Chickens,Directionality,Truth Dependent,Action,0
+345,Chickens,Directionality,Truth Dependent,Certainty,-2
+346,AI,ThinkBelieve,Symbolic,Action,-3
+346,AI,ThinkBelieve,Symbolic,Certainty,-3
+347,Jesus,ThinkBelieve,Truth Dependent,Action,-3
+347,Jesus,ThinkBelieve,Truth Dependent,Certainty,-3
+348,Aliens,Directionality,Symbolic,Action,-2
+348,Aliens,Directionality,Symbolic,Certainty,-3
+349,Jesus,Directionality,Symbolic,Action,2
+349,Jesus,Directionality,Symbolic,Certainty,-3
+350,Aliens,BinaryProbable,Symbolic,Action,-3
+350,Aliens,BinaryProbable,Symbolic,Certainty,-3
+351,Chickens,Directionality,Symbolic,Action,-3
+351,Chickens,Directionality,Symbolic,Certainty,-3
+352,Republican,BinaryProbable,Symbolic,Action,-2
+352,Republican,BinaryProbable,Symbolic,Certainty,-2
+353,Aliens,BinaryProbable,Truth Dependent,Action,1
+353,Aliens,BinaryProbable,Truth Dependent,Certainty,-2
+354,Republican,Directionality,Truth Dependent,Action,-2
+354,Republican,Directionality,Truth Dependent,Certainty,-2
+355,Jesus,ThinkBelieve,Truth Dependent,Action,-1
+355,Jesus,ThinkBelieve,Truth Dependent,Certainty,-2
+356,AI,BinaryProbable,Truth Dependent,Action,3
+356,AI,BinaryProbable,Truth Dependent,Certainty,3
+357,Aliens,Directionality,Symbolic,Action,-1
+357,Aliens,Directionality,Symbolic,Certainty,-1
+358,Aliens,ThinkBelieve,Symbolic,Action,1
+358,Aliens,ThinkBelieve,Symbolic,Certainty,1
+359,Jesus,Directionality,Truth Dependent,Action,2
+359,Jesus,Directionality,Truth Dependent,Certainty,-3
+360,AI,Directionality,Truth Dependent,Action,1
+360,AI,Directionality,Truth Dependent,Certainty,-1
+361,AI,BinaryProbable,Truth Dependent,Action,0
+361,AI,BinaryProbable,Truth Dependent,Certainty,-2
+362,Jesus,Directionality,Symbolic,Action,0
+362,Jesus,Directionality,Symbolic,Certainty,-1
+363,Jesus,ThinkBelieve,Truth Dependent,Action,3
+363,Jesus,ThinkBelieve,Truth Dependent,Certainty,-3
+364,Chickens,BinaryProbable,Symbolic,Action,0
+364,Chickens,BinaryProbable,Symbolic,Certainty,-1
+365,Republican,BinaryProbable,Symbolic,Action,-2
+365,Republican,BinaryProbable,Symbolic,Certainty,-3
+366,Republican,ThinkBelieve,Symbolic,Action,-3
+366,Republican,ThinkBelieve,Symbolic,Certainty,-3
+367,AI,BinaryProbable,Symbolic,Action,0
+367,AI,BinaryProbable,Symbolic,Certainty,0
+368,AI,ThinkBelieve,Truth Dependent,Action,1
+368,AI,ThinkBelieve,Truth Dependent,Certainty,1
+369,AI,ThinkBelieve,Truth Dependent,Action,2
+369,AI,ThinkBelieve,Truth Dependent,Certainty,-2
+370,AI,ThinkBelieve,Truth Dependent,Action,0
+370,AI,ThinkBelieve,Truth Dependent,Certainty,1
+371,AI,BinaryProbable,Truth Dependent,Action,-3
+371,AI,BinaryProbable,Truth Dependent,Certainty,-3
+372,Aliens,ThinkBelieve,Symbolic,Action,-2
+372,Aliens,ThinkBelieve,Symbolic,Certainty,-2
+373,Aliens,Directionality,Symbolic,Action,0
+373,Aliens,Directionality,Symbolic,Certainty,0
+374,Chickens,ThinkBelieve,Symbolic,Action,-2
+374,Chickens,ThinkBelieve,Symbolic,Certainty,0
+375,Chickens,ThinkBelieve,Symbolic,Action,-2
+375,Chickens,ThinkBelieve,Symbolic,Certainty,-1
+376,AI,ThinkBelieve,Truth Dependent,Action,2
+376,AI,ThinkBelieve,Truth Dependent,Certainty,-3
+377,Republican,BinaryProbable,Symbolic,Action,0
+377,Republican,BinaryProbable,Symbolic,Certainty,0
+378,Republican,Directionality,Truth Dependent,Action,1
+378,Republican,Directionality,Truth Dependent,Certainty,-1
+379,Aliens,BinaryProbable,Symbolic,Action,-3
+379,Aliens,BinaryProbable,Symbolic,Certainty,-3
+380,Aliens,Directionality,Symbolic,Action,-2
+380,Aliens,Directionality,Symbolic,Certainty,-2
+381,Chickens,Directionality,Symbolic,Action,0
+381,Chickens,Directionality,Symbolic,Certainty,1
+382,Jesus,ThinkBelieve,Symbolic,Action,3
+382,Jesus,ThinkBelieve,Symbolic,Certainty,-3
+383,Chickens,Directionality,Symbolic,Action,0
+383,Chickens,Directionality,Symbolic,Certainty,0
+384,Jesus,Directionality,Truth Dependent,Action,1
+384,Jesus,Directionality,Truth Dependent,Certainty,1
+385,AI,Directionality,Truth Dependent,Action,2
+385,AI,Directionality,Truth Dependent,Certainty,-3
+386,Republican,BinaryProbable,Truth Dependent,Action,3
+386,Republican,BinaryProbable,Truth Dependent,Certainty,-2
+387,Jesus,ThinkBelieve,Symbolic,Action,-3
+387,Jesus,ThinkBelieve,Symbolic,Certainty,-3
+388,Chickens,BinaryProbable,Symbolic,Action,3
+388,Chickens,BinaryProbable,Symbolic,Certainty,3
+389,Aliens,ThinkBelieve,Symbolic,Action,-3
+389,Aliens,ThinkBelieve,Symbolic,Certainty,-3
+390,Chickens,Directionality,Truth Dependent,Action,1
+390,Chickens,Directionality,Truth Dependent,Certainty,2
+391,Chickens,BinaryProbable,Truth Dependent,Action,1
+391,Chickens,BinaryProbable,Truth Dependent,Certainty,-1
+392,Jesus,Directionality,Truth Dependent,Action,-3
+392,Jesus,Directionality,Truth Dependent,Certainty,-3
+393,AI,BinaryProbable,Symbolic,Action,-3
+393,AI,BinaryProbable,Symbolic,Certainty,-3
+394,Jesus,ThinkBelieve,Truth Dependent,Action,-3
+394,Jesus,ThinkBelieve,Truth Dependent,Certainty,-3
+395,AI,BinaryProbable,Truth Dependent,Action,2
+395,AI,BinaryProbable,Truth Dependent,Certainty,-3
+396,Chickens,ThinkBelieve,Truth Dependent,Action,-3
+396,Chickens,ThinkBelieve,Truth Dependent,Certainty,-3
+397,Chickens,Directionality,Symbolic,Action,-1
+397,Chickens,Directionality,Symbolic,Certainty,-2
+398,AI,BinaryProbable,Truth Dependent,Action,2
+398,AI,BinaryProbable,Truth Dependent,Certainty,-1
+399,Chickens,ThinkBelieve,Truth Dependent,Action,-2
+399,Chickens,ThinkBelieve,Truth Dependent,Certainty,-2
+400,Aliens,Directionality,Truth Dependent,Action,-1
+400,Aliens,Directionality,Truth Dependent,Certainty,-2
+401,Aliens,BinaryProbable,Truth Dependent,Action,-3
+401,Aliens,BinaryProbable,Truth Dependent,Certainty,-3
+402,Chickens,ThinkBelieve,Symbolic,Action,-2
+402,Chickens,ThinkBelieve,Symbolic,Certainty,-1
+403,Republican,BinaryProbable,Truth Dependent,Action,-2
+403,Republican,BinaryProbable,Truth Dependent,Certainty,-2
+404,Aliens,BinaryProbable,Symbolic,Action,-1
+404,Aliens,BinaryProbable,Symbolic,Certainty,-2
+405,Jesus,Directionality,Truth Dependent,Action,3
+405,Jesus,Directionality,Truth Dependent,Certainty,-3
+406,Republican,BinaryProbable,Symbolic,Action,-1
+406,Republican,BinaryProbable,Symbolic,Certainty,2
+407,Aliens,ThinkBelieve,Symbolic,Action,-2
+407,Aliens,ThinkBelieve,Symbolic,Certainty,-2
+408,AI,ThinkBelieve,Truth Dependent,Action,-2
+408,AI,ThinkBelieve,Truth Dependent,Certainty,-2
+409,Chickens,BinaryProbable,Truth Dependent,Action,-1
+409,Chickens,BinaryProbable,Truth Dependent,Certainty,2
+410,AI,BinaryProbable,Truth Dependent,Action,1
+410,AI,BinaryProbable,Truth Dependent,Certainty,-3
+411,Aliens,BinaryProbable,Symbolic,Action,2
+411,Aliens,BinaryProbable,Symbolic,Certainty,-2
+412,Republican,ThinkBelieve,Truth Dependent,Action,0
+412,Republican,ThinkBelieve,Truth Dependent,Certainty,0
+413,Chickens,ThinkBelieve,Symbolic,Action,-1
+413,Chickens,ThinkBelieve,Symbolic,Certainty,-1
+414,Republican,ThinkBelieve,Symbolic,Action,0
+414,Republican,ThinkBelieve,Symbolic,Certainty,-1
+415,AI,Directionality,Truth Dependent,Action,1
+415,AI,Directionality,Truth Dependent,Certainty,1
+416,Jesus,Directionality,Truth Dependent,Action,2
+416,Jesus,Directionality,Truth Dependent,Certainty,-2
+417,Chickens,BinaryProbable,Truth Dependent,Action,3
+417,Chickens,BinaryProbable,Truth Dependent,Certainty,2
+418,Jesus,BinaryProbable,Symbolic,Action,-2
+418,Jesus,BinaryProbable,Symbolic,Certainty,-3
+419,Republican,BinaryProbable,Symbolic,Action,-2
+419,Republican,BinaryProbable,Symbolic,Certainty,1
+420,Chickens,ThinkBelieve,Symbolic,Action,-3
+420,Chickens,ThinkBelieve,Symbolic,Certainty,-3
+421,Chickens,BinaryProbable,Truth Dependent,Action,0
+421,Chickens,BinaryProbable,Truth Dependent,Certainty,-1
+422,Republican,Directionality,Symbolic,Action,-1
+422,Republican,Directionality,Symbolic,Certainty,-2
+423,Aliens,ThinkBelieve,Truth Dependent,Action,-1
+423,Aliens,ThinkBelieve,Truth Dependent,Certainty,-1
+424,Aliens,Directionality,Truth Dependent,Action,-1
+424,Aliens,Directionality,Truth Dependent,Certainty,-2
+425,Republican,Directionality,Symbolic,Action,0
+425,Republican,Directionality,Symbolic,Certainty,1
+426,Chickens,ThinkBelieve,Symbolic,Action,-1
+426,Chickens,ThinkBelieve,Symbolic,Certainty,-1
+427,Chickens,Directionality,Truth Dependent,Action,-2
+427,Chickens,Directionality,Truth Dependent,Certainty,-2
+428,Chickens,BinaryProbable,Symbolic,Action,-2
+428,Chickens,BinaryProbable,Symbolic,Certainty,-3
+429,Jesus,ThinkBelieve,Truth Dependent,Action,-2
+429,Jesus,ThinkBelieve,Truth Dependent,Certainty,-1
+430,Chickens,ThinkBelieve,Truth Dependent,Action,-3
+430,Chickens,ThinkBelieve,Truth Dependent,Certainty,-3
+431,Republican,BinaryProbable,Truth Dependent,Action,0
+431,Republican,BinaryProbable,Truth Dependent,Certainty,-3
+432,Jesus,Directionality,Symbolic,Action,2
+432,Jesus,Directionality,Symbolic,Certainty,1
+433,Republican,BinaryProbable,Truth Dependent,Action,2
+433,Republican,BinaryProbable,Truth Dependent,Certainty,-3
+434,AI,Directionality,Truth Dependent,Action,-2
+434,AI,Directionality,Truth Dependent,Certainty,-3
+435,AI,Directionality,Truth Dependent,Action,-1
+435,AI,Directionality,Truth Dependent,Certainty,-1
+436,Republican,BinaryProbable,Symbolic,Action,2
+436,Republican,BinaryProbable,Symbolic,Certainty,2
+437,Chickens,BinaryProbable,Truth Dependent,Action,0
+437,Chickens,BinaryProbable,Truth Dependent,Certainty,-3
+438,Chickens,Directionality,Symbolic,Action,-1
+438,Chickens,Directionality,Symbolic,Certainty,-2
+439,Republican,ThinkBelieve,Symbolic,Action,0
+439,Republican,ThinkBelieve,Symbolic,Certainty,0
+440,Jesus,BinaryProbable,Symbolic,Action,-3
+440,Jesus,BinaryProbable,Symbolic,Certainty,-3
+441,Republican,Directionality,Symbolic,Action,-2
+441,Republican,Directionality,Symbolic,Certainty,-2
+442,AI,ThinkBelieve,Symbolic,Action,1
+442,AI,ThinkBelieve,Symbolic,Certainty,1
+443,Chickens,BinaryProbable,Truth Dependent,Action,3
+443,Chickens,BinaryProbable,Truth Dependent,Certainty,3
+444,Republican,ThinkBelieve,Truth Dependent,Action,-2
+444,Republican,ThinkBelieve,Truth Dependent,Certainty,-2
+445,Republican,ThinkBelieve,Truth Dependent,Action,-1
+445,Republican,ThinkBelieve,Truth Dependent,Certainty,-2
+446,Aliens,Directionality,Symbolic,Action,-1
+446,Aliens,Directionality,Symbolic,Certainty,-2
+447,Jesus,ThinkBelieve,Truth Dependent,Action,3
+447,Jesus,ThinkBelieve,Truth Dependent,Certainty,-3
+448,Chickens,BinaryProbable,Symbolic,Action,1
+448,Chickens,BinaryProbable,Symbolic,Certainty,2
+449,Aliens,Directionality,Symbolic,Action,-1
+449,Aliens,Directionality,Symbolic,Certainty,-3
+450,Republican,Directionality,Symbolic,Action,-1
+450,Republican,Directionality,Symbolic,Certainty,-1
+451,Jesus,BinaryProbable,Symbolic,Action,-2
+451,Jesus,BinaryProbable,Symbolic,Certainty,1
+452,AI,Directionality,Truth Dependent,Action,-1
+452,AI,Directionality,Truth Dependent,Certainty,-2
+453,AI,ThinkBelieve,Symbolic,Action,0
+453,AI,ThinkBelieve,Symbolic,Certainty,0
+454,Republican,Directionality,Symbolic,Action,0
+454,Republican,Directionality,Symbolic,Certainty,0
+455,Aliens,BinaryProbable,Truth Dependent,Action,0
+455,Aliens,BinaryProbable,Truth Dependent,Certainty,0
+456,AI,BinaryProbable,Truth Dependent,Action,-2
+456,AI,BinaryProbable,Truth Dependent,Certainty,-3
+457,Aliens,ThinkBelieve,Truth Dependent,Action,-3
+457,Aliens,ThinkBelieve,Truth Dependent,Certainty,-3
+458,Jesus,BinaryProbable,Symbolic,Action,1
+458,Jesus,BinaryProbable,Symbolic,Certainty,2
+459,Chickens,ThinkBelieve,Symbolic,Action,-1
+459,Chickens,ThinkBelieve,Symbolic,Certainty,-2
+460,Aliens,Directionality,Truth Dependent,Action,-3
+460,Aliens,Directionality,Truth Dependent,Certainty,-3
+461,Aliens,ThinkBelieve,Symbolic,Action,-2
+461,Aliens,ThinkBelieve,Symbolic,Certainty,-3
+462,Aliens,ThinkBelieve,Truth Dependent,Action,-1
+462,Aliens,ThinkBelieve,Truth Dependent,Certainty,-1
+463,Republican,Directionality,Truth Dependent,Action,-2
+463,Republican,Directionality,Truth Dependent,Certainty,-3
+464,Chickens,Directionality,Symbolic,Action,-2
+464,Chickens,Directionality,Symbolic,Certainty,-3
+465,Republican,ThinkBelieve,Truth Dependent,Action,-3
+465,Republican,ThinkBelieve,Truth Dependent,Certainty,-3
+466,Republican,Directionality,Truth Dependent,Action,-2
+466,Republican,Directionality,Truth Dependent,Certainty,-2
+467,Chickens,BinaryProbable,Symbolic,Action,1
+467,Chickens,BinaryProbable,Symbolic,Certainty,1
+468,Republican,ThinkBelieve,Symbolic,Action,0
+468,Republican,ThinkBelieve,Symbolic,Certainty,-2
+469,Jesus,BinaryProbable,Symbolic,Action,-3
+469,Jesus,BinaryProbable,Symbolic,Certainty,-3
+470,Aliens,ThinkBelieve,Truth Dependent,Action,-2
+470,Aliens,ThinkBelieve,Truth Dependent,Certainty,0
+471,Republican,Directionality,Symbolic,Action,-1
+471,Republican,Directionality,Symbolic,Certainty,0
+472,Republican,BinaryProbable,Symbolic,Action,-2
+472,Republican,BinaryProbable,Symbolic,Certainty,-3
+473,AI,BinaryProbable,Truth Dependent,Action,1
+473,AI,BinaryProbable,Truth Dependent,Certainty,-1
+474,AI,Directionality,Symbolic,Action,3
+474,AI,Directionality,Symbolic,Certainty,1
+475,Aliens,ThinkBelieve,Truth Dependent,Action,-2
+475,Aliens,ThinkBelieve,Truth Dependent,Certainty,-2
+476,Jesus,Directionality,Truth Dependent,Action,3
+476,Jesus,Directionality,Truth Dependent,Certainty,3
+477,AI,ThinkBelieve,Symbolic,Action,-3
+477,AI,ThinkBelieve,Symbolic,Certainty,-3
+478,Republican,BinaryProbable,Truth Dependent,Action,-2
+478,Republican,BinaryProbable,Truth Dependent,Certainty,-3
+479,Chickens,BinaryProbable,Symbolic,Action,-3
+479,Chickens,BinaryProbable,Symbolic,Certainty,-3
+480,Aliens,ThinkBelieve,Truth Dependent,Action,-2
+480,Aliens,ThinkBelieve,Truth Dependent,Certainty,-3
+481,Aliens,BinaryProbable,Truth Dependent,Action,2
+481,Aliens,BinaryProbable,Truth Dependent,Certainty,3
+482,Republican,ThinkBelieve,Symbolic,Action,-2
+482,Republican,ThinkBelieve,Symbolic,Certainty,-2
+483,Chickens,ThinkBelieve,Symbolic,Action,-3
+483,Chickens,ThinkBelieve,Symbolic,Certainty,-3
+484,Jesus,BinaryProbable,Symbolic,Action,-2
+484,Jesus,BinaryProbable,Symbolic,Certainty,-3
+485,AI,BinaryProbable,Symbolic,Action,-3
+485,AI,BinaryProbable,Symbolic,Certainty,-3
+486,Aliens,Directionality,Truth Dependent,Action,-2
+486,Aliens,Directionality,Truth Dependent,Certainty,-2
+487,Jesus,BinaryProbable,Truth Dependent,Action,-1
+487,Jesus,BinaryProbable,Truth Dependent,Certainty,-2
+488,Republican,BinaryProbable,Symbolic,Action,1
+488,Republican,BinaryProbable,Symbolic,Certainty,2
+489,Jesus,ThinkBelieve,Symbolic,Action,-3
+489,Jesus,ThinkBelieve,Symbolic,Certainty,-3
+490,Chickens,Directionality,Symbolic,Action,-3
+490,Chickens,Directionality,Symbolic,Certainty,-3
+491,Republican,Directionality,Truth Dependent,Action,3
+491,Republican,Directionality,Truth Dependent,Certainty,-1
+492,Chickens,BinaryProbable,Truth Dependent,Action,3
+492,Chickens,BinaryProbable,Truth Dependent,Certainty,-3
+493,Chickens,Directionality,Truth Dependent,Action,1
+493,Chickens,Directionality,Truth Dependent,Certainty,2
+494,Aliens,BinaryProbable,Truth Dependent,Action,1
+494,Aliens,BinaryProbable,Truth Dependent,Certainty,2
+495,Jesus,Directionality,Symbolic,Action,-2
+495,Jesus,Directionality,Symbolic,Certainty,-3
+496,Jesus,BinaryProbable,Truth Dependent,Action,1
+496,Jesus,BinaryProbable,Truth Dependent,Certainty,-3
+497,Republican,Directionality,Symbolic,Action,-2
+497,Republican,Directionality,Symbolic,Certainty,-2
+498,Aliens,ThinkBelieve,Truth Dependent,Action,1
+498,Aliens,ThinkBelieve,Truth Dependent,Certainty,-2
+499,Republican,ThinkBelieve,Truth Dependent,Action,0
+499,Republican,ThinkBelieve,Truth Dependent,Certainty,-1
+500,Republican,Directionality,Truth Dependent,Action,-2
+500,Republican,Directionality,Truth Dependent,Certainty,0
+501,AI,Directionality,Symbolic,Action,-2
+501,AI,Directionality,Symbolic,Certainty,3
+502,Republican,BinaryProbable,Truth Dependent,Action,-3
+502,Republican,BinaryProbable,Truth Dependent,Certainty,-3
+503,Jesus,Directionality,Truth Dependent,Action,0
+503,Jesus,Directionality,Truth Dependent,Certainty,0
+504,Republican,ThinkBelieve,Symbolic,Action,-2
+504,Republican,ThinkBelieve,Symbolic,Certainty,-3
+505,AI,Directionality,Symbolic,Action,-2
+505,AI,Directionality,Symbolic,Certainty,2
+506,Aliens,ThinkBelieve,Truth Dependent,Action,-3
+506,Aliens,ThinkBelieve,Truth Dependent,Certainty,-2
+507,Chickens,BinaryProbable,Symbolic,Action,-2
+507,Chickens,BinaryProbable,Symbolic,Certainty,-1
+508,AI,Directionality,Symbolic,Action,-1
+508,AI,Directionality,Symbolic,Certainty,-1
+509,Republican,ThinkBelieve,Truth Dependent,Action,-2
+509,Republican,ThinkBelieve,Truth Dependent,Certainty,-3
+510,Aliens,Directionality,Symbolic,Action,-3
+510,Aliens,Directionality,Symbolic,Certainty,-2
+511,Republican,ThinkBelieve,Symbolic,Action,-1
+511,Republican,ThinkBelieve,Symbolic,Certainty,-1
+512,Chickens,ThinkBelieve,Truth Dependent,Action,0
+512,Chickens,ThinkBelieve,Truth Dependent,Certainty,-1
+513,Jesus,Directionality,Truth Dependent,Action,2
+513,Jesus,Directionality,Truth Dependent,Certainty,-1
+514,Jesus,ThinkBelieve,Symbolic,Action,-3
+514,Jesus,ThinkBelieve,Symbolic,Certainty,-3
+515,Chickens,BinaryProbable,Truth Dependent,Action,-2
+515,Chickens,BinaryProbable,Truth Dependent,Certainty,-3
+516,Jesus,ThinkBelieve,Symbolic,Action,-2
+516,Jesus,ThinkBelieve,Symbolic,Certainty,-3
+517,Aliens,BinaryProbable,Truth Dependent,Action,-2
+517,Aliens,BinaryProbable,Truth Dependent,Certainty,-3
+518,Jesus,BinaryProbable,Symbolic,Action,-1
+518,Jesus,BinaryProbable,Symbolic,Certainty,0
+519,AI,BinaryProbable,Truth Dependent,Action,1
+519,AI,BinaryProbable,Truth Dependent,Certainty,2
+520,Chickens,Directionality,Truth Dependent,Action,0
+520,Chickens,Directionality,Truth Dependent,Certainty,0
+521,Republican,ThinkBelieve,Truth Dependent,Action,0
+521,Republican,ThinkBelieve,Truth Dependent,Certainty,-2
+522,Chickens,Directionality,Truth Dependent,Action,-1
+522,Chickens,Directionality,Truth Dependent,Certainty,-2
+523,Jesus,BinaryProbable,Symbolic,Action,-2
+523,Jesus,BinaryProbable,Symbolic,Certainty,-2
+524,AI,ThinkBelieve,Symbolic,Action,-1
+524,AI,ThinkBelieve,Symbolic,Certainty,-2
+525,AI,ThinkBelieve,Symbolic,Action,-2
+525,AI,ThinkBelieve,Symbolic,Certainty,-2
+526,Chickens,Directionality,Symbolic,Action,-1
+526,Chickens,Directionality,Symbolic,Certainty,-2
+527,Republican,ThinkBelieve,Symbolic,Action,0
+527,Republican,ThinkBelieve,Symbolic,Certainty,0
+528,AI,BinaryProbable,Truth Dependent,Action,1
+528,AI,BinaryProbable,Truth Dependent,Certainty,-1
+529,Republican,Directionality,Symbolic,Action,-2
+529,Republican,Directionality,Symbolic,Certainty,-2
+530,Aliens,BinaryProbable,Truth Dependent,Action,-2
+530,Aliens,BinaryProbable,Truth Dependent,Certainty,-3
+531,Republican,ThinkBelieve,Truth Dependent,Action,1
+531,Republican,ThinkBelieve,Truth Dependent,Certainty,-3
+532,Aliens,Directionality,Symbolic,Action,0
+532,Aliens,Directionality,Symbolic,Certainty,0
+533,Chickens,BinaryProbable,Truth Dependent,Action,-2
+533,Chickens,BinaryProbable,Truth Dependent,Certainty,-3
+534,Chickens,Directionality,Symbolic,Action,-1
+534,Chickens,Directionality,Symbolic,Certainty,-1
+535,Jesus,Directionality,Truth Dependent,Action,1
+535,Jesus,Directionality,Truth Dependent,Certainty,-1
+536,Aliens,ThinkBelieve,Symbolic,Action,-3
+536,Aliens,ThinkBelieve,Symbolic,Certainty,-3
+537,Republican,BinaryProbable,Symbolic,Action,-1
+537,Republican,BinaryProbable,Symbolic,Certainty,-1
+538,Chickens,BinaryProbable,Symbolic,Action,-3
+538,Chickens,BinaryProbable,Symbolic,Certainty,-3
+539,Chickens,Directionality,Truth Dependent,Action,2
+539,Chickens,Directionality,Truth Dependent,Certainty,2
+540,Jesus,Directionality,Truth Dependent,Action,-2
+540,Jesus,Directionality,Truth Dependent,Certainty,-2
+541,Republican,BinaryProbable,Symbolic,Action,-1
+541,Republican,BinaryProbable,Symbolic,Certainty,-2
+542,AI,ThinkBelieve,Truth Dependent,Action,1
+542,AI,ThinkBelieve,Truth Dependent,Certainty,-1
+543,AI,ThinkBelieve,Symbolic,Action,1
+543,AI,ThinkBelieve,Symbolic,Certainty,-2
+544,Chickens,ThinkBelieve,Symbolic,Action,0
+544,Chickens,ThinkBelieve,Symbolic,Certainty,-1
+545,AI,BinaryProbable,Truth Dependent,Action,0
+545,AI,BinaryProbable,Truth Dependent,Certainty,-1
+546,AI,Directionality,Truth Dependent,Action,0
+546,AI,Directionality,Truth Dependent,Certainty,-1
+547,Aliens,ThinkBelieve,Truth Dependent,Action,-2
+547,Aliens,ThinkBelieve,Truth Dependent,Certainty,-2
+548,AI,BinaryProbable,Symbolic,Action,0
+548,AI,BinaryProbable,Symbolic,Certainty,0
+549,Jesus,BinaryProbable,Truth Dependent,Action,2
+549,Jesus,BinaryProbable,Truth Dependent,Certainty,-3
+550,Jesus,Directionality,Symbolic,Action,-1
+550,Jesus,Directionality,Symbolic,Certainty,-1
+551,Republican,Directionality,Symbolic,Action,-2
+551,Republican,Directionality,Symbolic,Certainty,2
+552,AI,Directionality,Truth Dependent,Action,2
+552,AI,Directionality,Truth Dependent,Certainty,-3
+553,AI,BinaryProbable,Symbolic,Action,-1
+553,AI,BinaryProbable,Symbolic,Certainty,-1
+554,Republican,ThinkBelieve,Truth Dependent,Action,-2
+554,Republican,ThinkBelieve,Truth Dependent,Certainty,-3
+555,Chickens,Directionality,Symbolic,Action,0
+555,Chickens,Directionality,Symbolic,Certainty,0
+556,Republican,BinaryProbable,Symbolic,Action,2
+556,Republican,BinaryProbable,Symbolic,Certainty,3
+557,Aliens,ThinkBelieve,Truth Dependent,Action,2
+557,Aliens,ThinkBelieve,Truth Dependent,Certainty,2
+558,Chickens,ThinkBelieve,Symbolic,Action,-3
+558,Chickens,ThinkBelieve,Symbolic,Certainty,-3
+559,Chickens,ThinkBelieve,Truth Dependent,Action,2
+559,Chickens,ThinkBelieve,Truth Dependent,Certainty,-3
+560,Jesus,BinaryProbable,Symbolic,Action,-1
+560,Jesus,BinaryProbable,Symbolic,Certainty,-2
+561,Chickens,ThinkBelieve,Truth Dependent,Action,0
+561,Chickens,ThinkBelieve,Truth Dependent,Certainty,0
+562,Jesus,Directionality,Symbolic,Action,3
+562,Jesus,Directionality,Symbolic,Certainty,3
+563,Republican,ThinkBelieve,Truth Dependent,Action,-2
+563,Republican,ThinkBelieve,Truth Dependent,Certainty,-3
+564,Republican,Directionality,Symbolic,Action,0
+564,Republican,Directionality,Symbolic,Certainty,2
+565,Republican,Directionality,Truth Dependent,Action,2
+565,Republican,Directionality,Truth Dependent,Certainty,-1
+566,Jesus,ThinkBelieve,Symbolic,Action,-1
+566,Jesus,ThinkBelieve,Symbolic,Certainty,-3
+567,Chickens,BinaryProbable,Symbolic,Action,3
+567,Chickens,BinaryProbable,Symbolic,Certainty,3
+568,AI,Directionality,Truth Dependent,Action,-2
+568,AI,Directionality,Truth Dependent,Certainty,-2
+569,AI,ThinkBelieve,Symbolic,Action,1
+569,AI,ThinkBelieve,Symbolic,Certainty,-1
+570,Aliens,Directionality,Symbolic,Action,-3
+570,Aliens,Directionality,Symbolic,Certainty,-3
+571,AI,ThinkBelieve,Symbolic,Action,2
+571,AI,ThinkBelieve,Symbolic,Certainty,2
+572,AI,ThinkBelieve,Truth Dependent,Action,3
+572,AI,ThinkBelieve,Truth Dependent,Certainty,-3
+573,AI,ThinkBelieve,Symbolic,Action,-3
+573,AI,ThinkBelieve,Symbolic,Certainty,-3
+574,AI,BinaryProbable,Truth Dependent,Action,3
+574,AI,BinaryProbable,Truth Dependent,Certainty,-3
+575,Chickens,BinaryProbable,Truth Dependent,Action,-2
+575,Chickens,BinaryProbable,Truth Dependent,Certainty,-2
+576,Aliens,BinaryProbable,Symbolic,Action,-3
+576,Aliens,BinaryProbable,Symbolic,Certainty,-3
+577,Jesus,Directionality,Truth Dependent,Action,3
+577,Jesus,Directionality,Truth Dependent,Certainty,3
+578,Republican,BinaryProbable,Truth Dependent,Action,2
+578,Republican,BinaryProbable,Truth Dependent,Certainty,2
+579,Aliens,BinaryProbable,Truth Dependent,Action,0
+579,Aliens,BinaryProbable,Truth Dependent,Certainty,-1
+580,Republican,ThinkBelieve,Symbolic,Action,0
+580,Republican,ThinkBelieve,Symbolic,Certainty,3
+581,AI,ThinkBelieve,Symbolic,Action,-3
+581,AI,ThinkBelieve,Symbolic,Certainty,-3
+582,Jesus,BinaryProbable,Truth Dependent,Action,-1
+582,Jesus,BinaryProbable,Truth Dependent,Certainty,-3
+583,Republican,BinaryProbable,Symbolic,Action,-1
+583,Republican,BinaryProbable,Symbolic,Certainty,3
+584,Jesus,ThinkBelieve,Truth Dependent,Action,2
+584,Jesus,ThinkBelieve,Truth Dependent,Certainty,-2
+585,Republican,BinaryProbable,Symbolic,Action,2
+585,Republican,BinaryProbable,Symbolic,Certainty,1
+586,Jesus,Directionality,Symbolic,Action,-3
+586,Jesus,Directionality,Symbolic,Certainty,-3
+587,AI,Directionality,Truth Dependent,Action,-1
+587,AI,Directionality,Truth Dependent,Certainty,0
+588,Jesus,ThinkBelieve,Truth Dependent,Action,-2
+588,Jesus,ThinkBelieve,Truth Dependent,Certainty,-2
+589,AI,Directionality,Symbolic,Action,-1
+589,AI,Directionality,Symbolic,Certainty,-2
+590,Jesus,ThinkBelieve,Truth Dependent,Action,-3
+590,Jesus,ThinkBelieve,Truth Dependent,Certainty,-2
+591,Republican,Directionality,Symbolic,Action,-1
+591,Republican,Directionality,Symbolic,Certainty,-1
+592,Aliens,Directionality,Truth Dependent,Action,-2
+592,Aliens,Directionality,Truth Dependent,Certainty,-3
+593,Jesus,Directionality,Truth Dependent,Action,0
+593,Jesus,Directionality,Truth Dependent,Certainty,0
+594,Jesus,BinaryProbable,Symbolic,Action,-2
+594,Jesus,BinaryProbable,Symbolic,Certainty,-3
+595,Jesus,BinaryProbable,Truth Dependent,Action,-3
+595,Jesus,BinaryProbable,Truth Dependent,Certainty,-3
+596,Jesus,ThinkBelieve,Symbolic,Action,-3
+596,Jesus,ThinkBelieve,Symbolic,Certainty,-3
+597,Jesus,BinaryProbable,Truth Dependent,Action,2
+597,Jesus,BinaryProbable,Truth Dependent,Certainty,-2
+598,Chickens,Directionality,Truth Dependent,Action,-3
+598,Chickens,Directionality,Truth Dependent,Certainty,-3
+599,AI,Directionality,Symbolic,Action,1
+599,AI,Directionality,Symbolic,Certainty,0
+600,Aliens,BinaryProbable,Symbolic,Action,-2
+600,Aliens,BinaryProbable,Symbolic,Certainty,-1
+601,Chickens,ThinkBelieve,Symbolic,Action,-1
+601,Chickens,ThinkBelieve,Symbolic,Certainty,-2
+602,Republican,BinaryProbable,Truth Dependent,Action,2
+602,Republican,BinaryProbable,Truth Dependent,Certainty,3
+603,Republican,ThinkBelieve,Truth Dependent,Action,-1
+603,Republican,ThinkBelieve,Truth Dependent,Certainty,1
+604,Aliens,Directionality,Symbolic,Action,-3
+604,Aliens,Directionality,Symbolic,Certainty,-3
+605,Jesus,Directionality,Truth Dependent,Action,-1
+605,Jesus,Directionality,Truth Dependent,Certainty,-3
+606,Chickens,BinaryProbable,Symbolic,Action,-3
+606,Chickens,BinaryProbable,Symbolic,Certainty,-3
+607,Jesus,BinaryProbable,Symbolic,Action,2
+607,Jesus,BinaryProbable,Symbolic,Certainty,2
+608,Chickens,BinaryProbable,Truth Dependent,Action,-1
+608,Chickens,BinaryProbable,Truth Dependent,Certainty,-1
+609,Aliens,Directionality,Symbolic,Action,-1
+609,Aliens,Directionality,Symbolic,Certainty,-2
+610,Aliens,Directionality,Symbolic,Action,2
+610,Aliens,Directionality,Symbolic,Certainty,2
+611,Republican,Directionality,Truth Dependent,Action,-2
+611,Republican,Directionality,Truth Dependent,Certainty,-3
+612,Chickens,Directionality,Truth Dependent,Action,-3
+612,Chickens,Directionality,Truth Dependent,Certainty,-3
+613,Chickens,BinaryProbable,Truth Dependent,Action,1
+613,Chickens,BinaryProbable,Truth Dependent,Certainty,-2
+614,Chickens,ThinkBelieve,Truth Dependent,Action,3
+614,Chickens,ThinkBelieve,Truth Dependent,Certainty,0
+615,Republican,BinaryProbable,Symbolic,Action,-1
+615,Republican,BinaryProbable,Symbolic,Certainty,-3
+616,Republican,Directionality,Truth Dependent,Action,3
+616,Republican,Directionality,Truth Dependent,Certainty,-3
+617,Aliens,Directionality,Symbolic,Action,-3
+617,Aliens,Directionality,Symbolic,Certainty,-3
+618,Jesus,Directionality,Truth Dependent,Action,1
+618,Jesus,Directionality,Truth Dependent,Certainty,-2
+619,Aliens,BinaryProbable,Symbolic,Action,3
+619,Aliens,BinaryProbable,Symbolic,Certainty,2
+620,Aliens,ThinkBelieve,Symbolic,Action,-2
+620,Aliens,ThinkBelieve,Symbolic,Certainty,-3
+621,Republican,BinaryProbable,Symbolic,Action,-3
+621,Republican,BinaryProbable,Symbolic,Certainty,-3
+622,Chickens,Directionality,Symbolic,Action,0
+622,Chickens,Directionality,Symbolic,Certainty,-2
+623,Aliens,ThinkBelieve,Truth Dependent,Action,-3
+623,Aliens,ThinkBelieve,Truth Dependent,Certainty,-3
+624,AI,Directionality,Symbolic,Action,-3
+624,AI,Directionality,Symbolic,Certainty,-3
+625,Republican,Directionality,Truth Dependent,Action,-3
+625,Republican,Directionality,Truth Dependent,Certainty,-3
+626,Jesus,ThinkBelieve,Symbolic,Action,-3
+626,Jesus,ThinkBelieve,Symbolic,Certainty,-3
+627,AI,ThinkBelieve,Truth Dependent,Action,0
+627,AI,ThinkBelieve,Truth Dependent,Certainty,1
+628,Republican,Directionality,Truth Dependent,Action,0
+628,Republican,Directionality,Truth Dependent,Certainty,0
+629,Chickens,BinaryProbable,Symbolic,Action,-3
+629,Chickens,BinaryProbable,Symbolic,Certainty,-3
+630,Chickens,Directionality,Symbolic,Action,-1
+630,Chickens,Directionality,Symbolic,Certainty,-3
+631,Aliens,BinaryProbable,Truth Dependent,Action,-1
+631,Aliens,BinaryProbable,Truth Dependent,Certainty,-1
+632,Jesus,ThinkBelieve,Symbolic,Action,-3
+632,Jesus,ThinkBelieve,Symbolic,Certainty,-3
+633,Aliens,BinaryProbable,Symbolic,Action,-3
+633,Aliens,BinaryProbable,Symbolic,Certainty,-3
+634,Republican,ThinkBelieve,Symbolic,Action,-2
+634,Republican,ThinkBelieve,Symbolic,Certainty,-1
+635,Aliens,ThinkBelieve,Truth Dependent,Action,-3
+635,Aliens,ThinkBelieve,Truth Dependent,Certainty,-3
+636,Chickens,BinaryProbable,Truth Dependent,Action,1
+636,Chickens,BinaryProbable,Truth Dependent,Certainty,-3
+637,Republican,ThinkBelieve,Symbolic,Action,0
+637,Republican,ThinkBelieve,Symbolic,Certainty,-1
+638,Jesus,ThinkBelieve,Truth Dependent,Action,-1
+638,Jesus,ThinkBelieve,Truth Dependent,Certainty,-3
+639,AI,ThinkBelieve,Symbolic,Action,0
+639,AI,ThinkBelieve,Symbolic,Certainty,0
+640,AI,ThinkBelieve,Truth Dependent,Action,0
+640,AI,ThinkBelieve,Truth Dependent,Certainty,-1
+641,Republican,ThinkBelieve,Symbolic,Action,3
+641,Republican,ThinkBelieve,Symbolic,Certainty,-3
+642,Aliens,BinaryProbable,Truth Dependent,Action,-1
+642,Aliens,BinaryProbable,Truth Dependent,Certainty,-2
+643,Republican,BinaryProbable,Symbolic,Action,0
+643,Republican,BinaryProbable,Symbolic,Certainty,2
+644,Aliens,Directionality,Truth Dependent,Action,-2
+644,Aliens,Directionality,Truth Dependent,Certainty,-2
+645,AI,BinaryProbable,Truth Dependent,Action,1
+645,AI,BinaryProbable,Truth Dependent,Certainty,1
+646,Jesus,Directionality,Symbolic,Action,2
+646,Jesus,Directionality,Symbolic,Certainty,2
+647,Jesus,ThinkBelieve,Truth Dependent,Action,2
+647,Jesus,ThinkBelieve,Truth Dependent,Certainty,-3
+648,Chickens,ThinkBelieve,Symbolic,Action,3
+648,Chickens,ThinkBelieve,Symbolic,Certainty,3
+649,Aliens,BinaryProbable,Symbolic,Action,1
+649,Aliens,BinaryProbable,Symbolic,Certainty,1
+650,Republican,Directionality,Truth Dependent,Action,2
+650,Republican,Directionality,Truth Dependent,Certainty,-3
+651,Jesus,ThinkBelieve,Truth Dependent,Action,1
+651,Jesus,ThinkBelieve,Truth Dependent,Certainty,-2
+652,Jesus,ThinkBelieve,Symbolic,Action,-3
+652,Jesus,ThinkBelieve,Symbolic,Certainty,-3
+653,Aliens,BinaryProbable,Symbolic,Action,-2
+653,Aliens,BinaryProbable,Symbolic,Certainty,-3
+654,Jesus,Directionality,Truth Dependent,Action,3
+654,Jesus,Directionality,Truth Dependent,Certainty,-3
+655,Jesus,ThinkBelieve,Truth Dependent,Action,1
+655,Jesus,ThinkBelieve,Truth Dependent,Certainty,3
+656,Jesus,Directionality,Symbolic,Action,1
+656,Jesus,Directionality,Symbolic,Certainty,0
+657,Republican,ThinkBelieve,Truth Dependent,Action,0
+657,Republican,ThinkBelieve,Truth Dependent,Certainty,-1
+658,Republican,ThinkBelieve,Symbolic,Action,-2
+658,Republican,ThinkBelieve,Symbolic,Certainty,-2
+659,Republican,BinaryProbable,Symbolic,Action,0
+659,Republican,BinaryProbable,Symbolic,Certainty,-1
+660,Jesus,BinaryProbable,Truth Dependent,Action,0
+660,Jesus,BinaryProbable,Truth Dependent,Certainty,-1
+661,AI,Directionality,Symbolic,Action,2
+661,AI,Directionality,Symbolic,Certainty,0
+662,AI,ThinkBelieve,Truth Dependent,Action,-2
+662,AI,ThinkBelieve,Truth Dependent,Certainty,-2
+663,Jesus,Directionality,Symbolic,Action,-3
+663,Jesus,Directionality,Symbolic,Certainty,-3
+664,Chickens,ThinkBelieve,Symbolic,Action,-2
+664,Chickens,ThinkBelieve,Symbolic,Certainty,-3
+665,Aliens,Directionality,Truth Dependent,Action,-2
+665,Aliens,Directionality,Truth Dependent,Certainty,-3
+666,Aliens,BinaryProbable,Symbolic,Action,-3
+666,Aliens,BinaryProbable,Symbolic,Certainty,-3
+667,AI,ThinkBelieve,Truth Dependent,Action,2
+667,AI,ThinkBelieve,Truth Dependent,Certainty,3
+668,Aliens,Directionality,Truth Dependent,Action,-3
+668,Aliens,Directionality,Truth Dependent,Certainty,-3
+669,Chickens,ThinkBelieve,Symbolic,Action,2
+669,Chickens,ThinkBelieve,Symbolic,Certainty,2
+670,Republican,BinaryProbable,Symbolic,Action,-2
+670,Republican,BinaryProbable,Symbolic,Certainty,-3
+671,Republican,BinaryProbable,Truth Dependent,Action,3
+671,Republican,BinaryProbable,Truth Dependent,Certainty,3
+672,Aliens,Directionality,Truth Dependent,Action,0
+672,Aliens,Directionality,Truth Dependent,Certainty,-1
+673,Chickens,BinaryProbable,Truth Dependent,Action,2
+673,Chickens,BinaryProbable,Truth Dependent,Certainty,1
+674,AI,ThinkBelieve,Truth Dependent,Action,1
+674,AI,ThinkBelieve,Truth Dependent,Certainty,1
+675,Chickens,Directionality,Symbolic,Action,0
+675,Chickens,Directionality,Symbolic,Certainty,0
+676,AI,BinaryProbable,Truth Dependent,Action,2
+676,AI,BinaryProbable,Truth Dependent,Certainty,-3
+677,Jesus,BinaryProbable,Symbolic,Action,-3
+677,Jesus,BinaryProbable,Symbolic,Certainty,-3
+678,Chickens,Directionality,Symbolic,Action,-1
+678,Chickens,Directionality,Symbolic,Certainty,-3
+679,Chickens,Directionality,Truth Dependent,Action,2
+679,Chickens,Directionality,Truth Dependent,Certainty,-2
+680,Chickens,Directionality,Symbolic,Action,-3
+680,Chickens,Directionality,Symbolic,Certainty,-3
+681,Republican,Directionality,Truth Dependent,Action,0
+681,Republican,Directionality,Truth Dependent,Certainty,-3
+682,Republican,BinaryProbable,Truth Dependent,Action,-2
+682,Republican,BinaryProbable,Truth Dependent,Certainty,-2
+683,Aliens,BinaryProbable,Truth Dependent,Action,-3
+683,Aliens,BinaryProbable,Truth Dependent,Certainty,-3
+684,Jesus,ThinkBelieve,Symbolic,Action,-2
+684,Jesus,ThinkBelieve,Symbolic,Certainty,-2
+685,Aliens,BinaryProbable,Symbolic,Action,0
+685,Aliens,BinaryProbable,Symbolic,Certainty,-2
+686,Republican,ThinkBelieve,Truth Dependent,Action,0
+686,Republican,ThinkBelieve,Truth Dependent,Certainty,3
+687,Republican,BinaryProbable,Truth Dependent,Action,-2
+687,Republican,BinaryProbable,Truth Dependent,Certainty,-3
+688,AI,ThinkBelieve,Truth Dependent,Action,-2
+688,AI,ThinkBelieve,Truth Dependent,Certainty,-3
+689,Chickens,ThinkBelieve,Symbolic,Action,-3
+689,Chickens,ThinkBelieve,Symbolic,Certainty,-3
+690,Jesus,BinaryProbable,Symbolic,Action,-2
+690,Jesus,BinaryProbable,Symbolic,Certainty,-3
+691,AI,Directionality,Truth Dependent,Action,1
+691,AI,Directionality,Truth Dependent,Certainty,-1
+692,Republican,ThinkBelieve,Truth Dependent,Action,0
+692,Republican,ThinkBelieve,Truth Dependent,Certainty,-2
+693,Republican,Directionality,Symbolic,Action,-3
+693,Republican,Directionality,Symbolic,Certainty,1
+694,Chickens,ThinkBelieve,Symbolic,Action,-2
+694,Chickens,ThinkBelieve,Symbolic,Certainty,-3
+695,Aliens,BinaryProbable,Truth Dependent,Action,0
+695,Aliens,BinaryProbable,Truth Dependent,Certainty,-3
+696,Republican,ThinkBelieve,Symbolic,Action,-3
+696,Republican,ThinkBelieve,Symbolic,Certainty,-3
+697,AI,Directionality,Truth Dependent,Action,3
+697,AI,Directionality,Truth Dependent,Certainty,-3
+698,AI,ThinkBelieve,Symbolic,Action,-3
+698,AI,ThinkBelieve,Symbolic,Certainty,-3
+699,Chickens,BinaryProbable,Truth Dependent,Action,0
+699,Chickens,BinaryProbable,Truth Dependent,Certainty,3
+700,Aliens,BinaryProbable,Truth Dependent,Action,-1
+700,Aliens,BinaryProbable,Truth Dependent,Certainty,-3
+701,Chickens,Directionality,Symbolic,Action,-1
+701,Chickens,Directionality,Symbolic,Certainty,-1
+702,Aliens,BinaryProbable,Symbolic,Action,0
+702,Aliens,BinaryProbable,Symbolic,Certainty,-1
+703,Republican,ThinkBelieve,Symbolic,Action,-3
+703,Republican,ThinkBelieve,Symbolic,Certainty,-3
+704,Chickens,Directionality,Truth Dependent,Action,1
+704,Chickens,Directionality,Truth Dependent,Certainty,-3
+705,Jesus,Directionality,Truth Dependent,Action,-3
+705,Jesus,Directionality,Truth Dependent,Certainty,-3
+706,Jesus,Directionality,Truth Dependent,Action,3
+706,Jesus,Directionality,Truth Dependent,Certainty,3
+707,Chickens,BinaryProbable,Truth Dependent,Action,-2
+707,Chickens,BinaryProbable,Truth Dependent,Certainty,-3
+708,AI,Directionality,Symbolic,Action,3
+708,AI,Directionality,Symbolic,Certainty,-1
+709,Jesus,ThinkBelieve,Truth Dependent,Action,-2
+709,Jesus,ThinkBelieve,Truth Dependent,Certainty,-3
+710,Aliens,BinaryProbable,Symbolic,Action,-3
+710,Aliens,BinaryProbable,Symbolic,Certainty,-2
+711,Aliens,Directionality,Symbolic,Action,-2
+711,Aliens,Directionality,Symbolic,Certainty,-3
+712,Republican,ThinkBelieve,Symbolic,Action,-3
+712,Republican,ThinkBelieve,Symbolic,Certainty,-3
+713,Jesus,ThinkBelieve,Truth Dependent,Action,-3
+713,Jesus,ThinkBelieve,Truth Dependent,Certainty,-3
+714,Aliens,Directionality,Symbolic,Action,-2
+714,Aliens,Directionality,Symbolic,Certainty,-2
+715,Jesus,Directionality,Symbolic,Action,-3
+715,Jesus,Directionality,Symbolic,Certainty,-3
+716,Aliens,ThinkBelieve,Symbolic,Action,-3
+716,Aliens,ThinkBelieve,Symbolic,Certainty,-3
+717,Jesus,BinaryProbable,Truth Dependent,Action,-2
+717,Jesus,BinaryProbable,Truth Dependent,Certainty,-3
+718,Jesus,BinaryProbable,Truth Dependent,Action,3
+718,Jesus,BinaryProbable,Truth Dependent,Certainty,-3
+719,Aliens,Directionality,Symbolic,Action,-2
+719,Aliens,Directionality,Symbolic,Certainty,-3
+720,Chickens,BinaryProbable,Symbolic,Action,-3
+720,Chickens,BinaryProbable,Symbolic,Certainty,-3
+721,Aliens,ThinkBelieve,Symbolic,Action,-2
+721,Aliens,ThinkBelieve,Symbolic,Certainty,-3
+722,Aliens,BinaryProbable,Symbolic,Action,-3
+722,Aliens,BinaryProbable,Symbolic,Certainty,-3
+723,Jesus,BinaryProbable,Truth Dependent,Action,-1
+723,Jesus,BinaryProbable,Truth Dependent,Certainty,-1
+724,AI,ThinkBelieve,Truth Dependent,Action,-3
+724,AI,ThinkBelieve,Truth Dependent,Certainty,-2
+725,AI,ThinkBelieve,Truth Dependent,Action,0
+725,AI,ThinkBelieve,Truth Dependent,Certainty,-3
+726,AI,ThinkBelieve,Truth Dependent,Action,0
+726,AI,ThinkBelieve,Truth Dependent,Certainty,1
+727,AI,ThinkBelieve,Symbolic,Action,0
+727,AI,ThinkBelieve,Symbolic,Certainty,1
+728,Republican,Directionality,Truth Dependent,Action,-2
+728,Republican,Directionality,Truth Dependent,Certainty,-3
+729,Jesus,ThinkBelieve,Truth Dependent,Action,2
+729,Jesus,ThinkBelieve,Truth Dependent,Certainty,-3
+730,Republican,ThinkBelieve,Truth Dependent,Action,0
+730,Republican,ThinkBelieve,Truth Dependent,Certainty,0
+731,Chickens,ThinkBelieve,Symbolic,Action,-2
+731,Chickens,ThinkBelieve,Symbolic,Certainty,0
+732,AI,BinaryProbable,Symbolic,Action,2
+732,AI,BinaryProbable,Symbolic,Certainty,2
+733,Aliens,Directionality,Truth Dependent,Action,1
+733,Aliens,Directionality,Truth Dependent,Certainty,2
+734,Republican,BinaryProbable,Truth Dependent,Action,-2
+734,Republican,BinaryProbable,Truth Dependent,Certainty,-3
+735,Jesus,BinaryProbable,Truth Dependent,Action,3
+735,Jesus,BinaryProbable,Truth Dependent,Certainty,-2
+736,Chickens,Directionality,Truth Dependent,Action,-2
+736,Chickens,Directionality,Truth Dependent,Certainty,-3
+737,Republican,BinaryProbable,Symbolic,Action,0
+737,Republican,BinaryProbable,Symbolic,Certainty,0
+738,Republican,Directionality,Truth Dependent,Action,-3
+738,Republican,Directionality,Truth Dependent,Certainty,-3
+739,Jesus,BinaryProbable,Symbolic,Action,-2
+739,Jesus,BinaryProbable,Symbolic,Certainty,-3
+740,Aliens,ThinkBelieve,Truth Dependent,Action,-3
+740,Aliens,ThinkBelieve,Truth Dependent,Certainty,-3
+741,Chickens,Directionality,Symbolic,Action,-2
+741,Chickens,Directionality,Symbolic,Certainty,-2
+742,AI,Directionality,Symbolic,Action,1
+742,AI,Directionality,Symbolic,Certainty,2
+743,Republican,BinaryProbable,Symbolic,Action,2
+743,Republican,BinaryProbable,Symbolic,Certainty,2
+744,Republican,BinaryProbable,Truth Dependent,Action,1
+744,Republican,BinaryProbable,Truth Dependent,Certainty,0
+745,Jesus,BinaryProbable,Truth Dependent,Action,1
+745,Jesus,BinaryProbable,Truth Dependent,Certainty,-2
+746,Aliens,Directionality,Truth Dependent,Action,-1
+746,Aliens,Directionality,Truth Dependent,Certainty,-1
+747,Aliens,BinaryProbable,Symbolic,Action,-3
+747,Aliens,BinaryProbable,Symbolic,Certainty,-3
+748,AI,BinaryProbable,Truth Dependent,Action,-3
+748,AI,BinaryProbable,Truth Dependent,Certainty,-3
+749,Chickens,Directionality,Symbolic,Action,-1
+749,Chickens,Directionality,Symbolic,Certainty,-1
+750,Chickens,ThinkBelieve,Symbolic,Action,-3
+750,Chickens,ThinkBelieve,Symbolic,Certainty,-3
+751,Republican,Directionality,Truth Dependent,Action,-3
+751,Republican,Directionality,Truth Dependent,Certainty,-3
